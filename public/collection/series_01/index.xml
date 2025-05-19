@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advent Calendars on Quant Girl</title>
+    <link>http://localhost:1313/collection/series_01/</link>
+    <description>Recent content in Advent Calendars on Quant Girl</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Dialid Santiago 2025</copyright>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/collection/series_01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023</title>
+      <link>http://localhost:1313/collection/series_01/01-2023/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/collection/series_01/01-2023/</guid>
+      <description>&lt;!-- ## Profile&#xA;&#xA;https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile&#xA;&#xA;## Pin projects to profile&#xA;&#xA;https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile&#xA;&#xA;## Profile README&#xA;&#xA;This is new! Let&#39;s do it:&#xA;&#xA;https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme --&gt;</description>
+    </item>
+    <item>
+      <title>2024</title>
+      <link>http://localhost:1313/collection/series_01/02-2024/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/collection/series_01/02-2024/</guid>
+      <description>&lt;!-- ## Pre-requisites&#xA;&#xA;First, make sure you have the latest version of the postcards package installed from CRAN:&#xA;&#xA;```&#xA;install.packages(&#34;postcards&#34;)&#xA;```&#xA;&#xA;Restart your R session. If you use RStudio, use the menu item *Session &gt; Restart R* or the associated keyboard shortcut:&#xA;&#xA;+ &lt;kbd&gt;Ctrl + Shift + F10&lt;/kbd&gt; (Windows and Linux) or&#xA;+ &lt;kbd&gt;Command + Shift + F10&lt;kbd&gt; (Mac OS). &#xA;&#xA;```&#xA;packageVersion(&#34;postcards&#34;)&#xA;[1] ‘0.2.0’&#xA;```&#xA;&#xA;## Create GitHub repo&#xA;&#xA;Online.&#xA;&#xA;## Clone GitHub repo&#xA;&#xA;```&#xA;usethis::create_from_github(&#34;https://github.com/apreshill/global-postcard.git&#34;)&#xA;```&#xA;&#xA;:sparkles: Commit &amp; Push! :sparkles:&#xA;&#xA;You should be committing these files:&#xA;&#xA;+ `*.Rproj`&#xA;&#xA;+ `.gitignore`&#xA;&#xA;## Create a postcard {#templates}&#xA;&#xA;Inside your current postcards project, use the R console:&#xA;&#xA;```&#xA;library(postcards)&#xA;```&#xA;&#xA;Then you could run (wait- don&#39;t do this yet!):&#xA;&#xA;```&#xA;create_postcard()&#xA;```&#xA;&#xA;But you could also pick one of four templates:&#xA;&#xA;1. `&#34;jolla&#34;` (&lt;https://seankross.com/postcards-templates/jolla/&gt;) [the default]&#xA;&#xA;1. `&#34;jolla-blue&#34;` (&lt;https://seankross.com/postcards-templates/jolla-blue/&gt;)&#xA;&#xA;1. `&#34;trestles&#34;` (&lt;https://seankross.com/postcards-templates/trestles/&gt;)&#xA;&#xA;1. `&#34;onofre&#34;` (&lt;https://seankross.com/postcards-templates/onofre/&gt;)&#xA;&#xA;```&#xA;create_postcard(template = &#34;jolla&#34;) #default&#xA;create_postcard(template = &#34;jolla-blue&#34;)&#xA;create_postcard(template = &#34;trestles&#34;)&#xA;create_postcard(template = &#34;onofre&#34;)&#xA;```&#xA;&#xA;&lt;aside&gt;&#xA;Want to know more? Under the hood, these are R Markdown templates, which you can include in a package.&#xA;&lt;/aside&gt;&#xA;&#xA;## Anatomy of a postcard&#xA;&#xA;YAML, body, name is index- this is special&#xA;&#xA;:sparkles: Commit &amp; Push! :sparkles:&#xA;&#xA;You should be committing these files:&#xA;&#xA;+ `index.Rmd`&#xA;&#xA;+ `*.jpg`&#xA;&#xA;But! There is no `.html` file (yet...)&#xA;&#xA;&#xA;## Knit the postcard&#xA;&#xA;Knit button or&#xA;&#xA;```&#xA;rmarkdown::render(&#34;index.Rmd&#34;)&#xA;```&#xA;&#xA;What is new in your Git pane?&#xA;&#xA;:sparkles: Commit &amp; Push! :sparkles:&#xA;&#xA;You should be committing this files:&#xA;&#xA;+ `index.html`&#xA;&#xA;(You may get a warning in RStudio IDE that this file is too big- go right ahead)&#xA;&#xA;## Publish a postcard&#xA;&#xA;Easy: &#xA;&#xA;+ Push, publish to GitHub pages&#xA;https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site&#xA;&#xA;Medium:&#xA;&#xA;```&#xA;&gt; use_github_pages(branch = &#34;main&#34;, path = &#34;/&#34;)&#xA;✓ Setting active project to &#39;/Users/alison/rscratch/global-postcard&#39;&#xA;✓ Activating GitHub Pages for &#39;apreshill/global-postcard&#39;&#xA;✓ GitHub Pages is publishing from:&#xA;● URL: &#39;https://apreshill.github.io/global-postcard/&#39;&#xA;● Branch: &#39;main&#39;&#xA;● Path: &#39;/&#39;&#xA;```&#xA;&#xA;## Share your postcard!&#xA;&#xA;Add it to your repository details&#xA;   --&gt;</description>
+    </item>
+  </channel>
+</rss>

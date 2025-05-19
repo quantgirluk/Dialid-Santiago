@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Quant Girl</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Quant Girl</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Dialid Santiago 2025</copyright>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KCL 2025</title>
+      <link>http://localhost:1313/blog/kcl/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/kcl/</guid>
+      <description>&lt;p&gt;This year, we focused on the problem of estimating price sensitivities (a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods, thoroughly exploring its mathematical formulation, along with a practical demonstration of its implementation in Python. 🐍&lt;/p&gt;&#xA;&lt;p&gt;Some of the points that we discussed during the session:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I shared a bit about my experience working as a Quant after graduating from a STEM background (and having no previous experience).&lt;/li&gt;&#xA;&lt;li&gt;More generally, we discussed what does it mean to be a Quant and how this has changed over the years.&lt;/li&gt;&#xA;&lt;li&gt;We talked about the large number of opportunities that currently exist in the Quant world. To put things in perspective, we took a look at this image from the book “The Front Office Manual: The Definitive Guide to Trading, Structuring and Sales (Global Financial Markets) (2013)” by A. Sutherland, and J. Court; and commented on how much things have changed since the book was published. Today, the picture should probably look more like this one ⬇️ which translates in much more opportunities for Quants!&lt;/li&gt;&#xA;&lt;li&gt;Then, we passed to the more technical part of the agenda: defining the problem of estimating Greeks and exploring different mathematical techniques to solve it.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can access the lecture materials in the provided Jupyter notebook and slides here.&#xA;Jupyter Notebook: Malliavin Greeks under BS dynamics&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

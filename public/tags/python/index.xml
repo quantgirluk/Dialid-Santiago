@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Quant Girl</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Quant Girl</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Dialid Santiago 2025</copyright>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aleatory</title>
+      <link>http://localhost:1313/project/aleatory/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/aleatory/</guid>
+      <description>&lt;!-- ### “Grid is the very first CSS module created specifically to solve the layout problems we&#39;ve all been hacking our way around for as long as we&#39;ve been making websites.”&#xA;&#xA;*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]&#xA;&#xA;--- --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&#xA;  &lt;a href=&#34;#overview&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Aleatory (/ˈeɪliətəri/) introduces objects representing stochastic processes, and provides functionality to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fanchart</title>
+      <link>http://localhost:1313/project/fanchart/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/fanchart/</guid>
+      <description>&lt;!-- ### “Grid is the very first CSS module created specifically to solve the layout problems we&#39;ve all been hacking our way around for as long as we&#39;ve been making websites.”&#xA;&#xA;*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]&#xA;&#xA;--- --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&#xA;  &lt;a href=&#34;#overview&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The term &lt;strong&gt;fanchart&lt;/strong&gt; was coined by the Bank of England in 1996. Since then, central banks around the world have used these charts to illustrate its forecasts for inflation, GDP, and other economy measures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>two-piece</title>
+      <link>http://localhost:1313/project/twopiece/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/twopiece/</guid>
+      <description>&lt;!-- ### “Grid is the very first CSS module created specifically to solve the layout problems we&#39;ve all been hacking our way around for as long as we&#39;ve been making websites.”&#xA;&#xA;*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]&#xA;&#xA;--- --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&#xA;  &lt;a href=&#34;#overview&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;strong&gt;twopiece&lt;/strong&gt; library provides a &#xA;&lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Python&lt;/a&gt; implementation of the family of Two Piece&#xA;distributions. It covers three subfamilies &#xA;&lt;a href=&#34;#two-piece-scale&#34;&gt;Two-Piece Scale&lt;/a&gt;, &#xA;&lt;a href=&#34;#two-piece-shape&#34;&gt;Two-Piece Shape&lt;/a&gt;,&#xA;and &#xA;&lt;a href=&#34;#double-two-piece&#34;&gt;Double Two-Piece&lt;/a&gt;. The following diagram shows how these families relate.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

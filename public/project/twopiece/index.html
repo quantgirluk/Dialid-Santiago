@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.147.2">
+<title>two-piece | Quant Girl</title>
+
+
+<meta property="twitter:site" content="@apreshill">
+<meta property="twitter:creator" content="@apreshill">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Python library providing Two-Piece distributions functionality.">
+
+
+<meta property="og:site_name" content="Quant Girl">
+<meta property="og:title" content="two-piece | Quant Girl">
+<meta property="og:description" content="Python library providing Two-Piece distributions functionality." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="http://localhost:1313/project/twopiece/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="http://localhost:1313/project/twopiece/featured-hex.png" >
+        <meta property="twitter:card" content="summary">
+        <meta name="twitter:image" content="http://localhost:1313/project/twopiece/featured-hex.png" >
+    
+    
+  
+  <meta itemprop="name" content="two-piece">
+  <meta itemprop="description" content="Overview The twopiece library provides a Python implementation of the family of Two Piece distributions. It covers three subfamilies Two-Piece Scale, Two-Piece Shape, and Double Two-Piece. The following diagram shows how these families relate.">
+  <meta itemprop="datePublished" content="2019-01-11T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2019-01-11T00:00:00+00:00">
+  <meta itemprop="wordCount" content="112">
+  <meta itemprop="image" content="http://localhost:1313/project/twopiece/featured-hex.png">
+  <meta itemprop="keywords" content="Python">
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f9dc39a6055811c5be1639414483c4e283f457438fcdfb4ee1d360447b10fca5.css" integrity="sha256-&#43;dw5pgVYEcW&#43;FjlBRIPE4oP0V0OPzftO4dNgRHsQ/KU=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.6af2a21036d2781523706592d16df7cbd3a02bad683e84d56d9966d1ba777c8a.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single-sidebar">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:1313/" title="Home">
+      <img src="/img/blogophonic-mark-dark.png" class="dib db-l h2 w-auto" alt="Quant Girl">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Blogophonic">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/collection/" title="A collection">Collections</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pr3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">two-piece</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure">Python library providing Two-Piece distributions functionality.</h4>
+        <p class="f6 measure lh-copy mv1">By D. Santiago in <a href="http://localhost:1313/categories/python">Python</a> </p>
+        <p class="f7 db mv0 ttu">January 11, 2019</p>
+        
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://github.com/quantgirluk/twopiece" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>code</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://pypi.org/project/twopiece/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>web-site</a>
+
+
+      </div>
+      
+      
+      </header>
+      <section class="post-body pt5 pb4">
+        <!-- ### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
+
+*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
+
+--- -->
+
+
+
+
+<h3 id="overview">Overview
+  <a href="#overview"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The <strong>twopiece</strong> library provides a 
+<a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> implementation of the family of Two Piece
+distributions. It covers three subfamilies 
+<a href="#two-piece-scale">Two-Piece Scale</a>, 
+<a href="#two-piece-shape">Two-Piece Shape</a>,
+and 
+<a href="#double-two-piece">Double Two-Piece</a>. The following diagram shows how these families relate.</p>
+<figure>
+  <p><img src="https://raw.githubusercontent.com/quantgirluk/twopiece/master/tpfamilies.png"
+    width="500" height="230">
+</figure>
+
+
+
+
+<h3 id="notes">Notes
+  <a href="#notes"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>For technical details on this families of distributions we refer to the following two publications which serve as reference for our implementation.</p>
+<ul>
+<li>
+<p>
+<a href="https://projecteuclid.org/euclid.ba/1393251764" target="_blank" rel="noopener">Inference in Two-Piece Location-Scale Models with Jeffreys Priors</a> published in 
+<a href="https://projecteuclid.org/euclid.ba" target="_blank" rel="noopener">Bayesian Anal.</a> Volume 9, Number 1 (2014), 1-22.</p>
+</li>
+<li>
+<p>
+<a href="https://projecteuclid.org/euclid.ejs/1440680330" target="_blank" rel="noopener">Bayesian modelling of skewness and kurtosis with Two-Piece Scale and shape distributions</a>
+published in 
+<a href="https://projecteuclid.org/euclid.ejs" target="_blank" rel="noopener">Electron. J. Statist.</a>, Volume 9, Number 2 (2015), 1884-1912.</p>
+</li>
+</ul>
+<p>For the 
+<a href="https://www.r-project.org/" target="_blank" rel="noopener">R</a> implementation we refer to the following packages.</p>
+<ul>
+<li>
+<a href="https://sites.google.com/site/fjavierrubio67/resources" target="_blank" rel="noopener">twopiece, DTP, and TPSAS</a></li>
+</ul>
+<!-- ### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+
+A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job: -->
+<!-- > ##### CSS Grid Layout Module
+>
+> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
+>
+> — _W3C_
+
+CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+```
+
+#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+
+[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) -->
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="http://localhost:1313/project/fanchart/">&larr; fanchart</a>
+  
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/project/featured-sidebar.jpg" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">Open Source Projects</h1>
+  <p class="f6 lh-copy measure">Some of the open-source projects that I have developed in my free time over ther years.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by D. Santiago</p>
+
+
+  
+  <div class="dib bt bw1 b--black-10">
+    
+      <small class="db f7 pt3"><a href="/project/" class="dib fw7 ttu">View all projects</a></small>
+    
+    
+    
+    
+  </div>
+
+
+</div>
+
+
+  
+  <details open class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 11, 2019</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">1 minute read, 112 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:1313/categories/python">Python</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:1313/tags/python">Python</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/project/aleatory/">aleatory</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/project/fanchart/">fanchart</a></dd>
+    
+  </dl>
+</details>
+
+</aside>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      © Dialid Santiago 2025
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/dialidsantiago/" title="linkedin-in" target="_blank" rel="me noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/quantgirluk" title="github" target="_blank" rel="me noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/quant_girl/" title="instagram" target="_blank" rel="me noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://x.com/Quant_Girl" title="x-twitter" target="_blank" rel="me noopener">
+      <i class="fab fa-x-twitter fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/contributors/" title="FAQs">FAQs</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+      <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+    
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>
