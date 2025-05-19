@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://dialid.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Quant Girl"
