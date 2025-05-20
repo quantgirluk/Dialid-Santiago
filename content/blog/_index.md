@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: "A random collection of notes, thougths, and references."
+description: "A random collection of notes, thoughts, and references."
 author: "D. Santiago"
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
@@ -13,7 +13,7 @@ layout: list # list, list-sidebar, list-grid
 # for list-sidebar layout
 sidebar: 
   title: Blog
-  description: "A random collection of notes, thougths, and references."
+  description: "A random collection of notes, thoughts, and references."
   author: "D. Santiago"
   # text_link_label: Subscribe via RSS
   # text_link_url: /index.xml
