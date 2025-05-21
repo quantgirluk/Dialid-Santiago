@@ -2,7 +2,7 @@
 title: "2024"
 weight: 2
 subtitle: "Stochastic Processes"
-excerpt: "In 2024, we reviewed 24 stochastic processes."
+excerpt: "Following with the tradition of the Advent calendar, this time we reviewed 24 stochastic processes."
 date: 2024-12-01
 draft: false
 links:

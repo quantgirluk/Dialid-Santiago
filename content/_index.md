@@ -2,8 +2,9 @@
 title: "Dialid Santiago"
 subtitle: "Mathematician | Quant | Open Source Developer"
 description: "
-I love **maths**, **finance**, and **coding**, and I work at the intersection of these fields.
-In my free time, I write here and create open-source projects about **mathematical models**,  **data**, **visualisation**, and related topics."
+I love **maths**, **finance**, and **coding** —and I work at the intersection of all three. 
+In my free time, I enjoy creating open-source projects that explore **mathematical models**, 
+**data analysis**, and **visualisation**, along with other topics that spark my curiosity."
 images:
   # - img/revoir.jpg
   - img/home3.png
