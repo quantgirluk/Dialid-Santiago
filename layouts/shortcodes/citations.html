@@ -1,0 +1,40 @@
+<hr>
+<div class="post-attribution">
+  <p>For attribution, please cite this work as:</p>
+
+  <div style="border-left: 4px solid #ccc; padding-left: 1em; margin: 1em 0;">
+    <p><strong>{{ .Page.Title }}.</strong><br></p>
+    <p>{{ with .Page.Params.author }}{{ . }}.{{ else }}{{ .Site.Params.author }}.{{ end }} {{ .Page.Date.Format "January 2, 2006" }}.<br>
+    <a href="{{ .Page.Permalink }}">{{ .Page.Permalink }}</a></p>
+  </div>
+
+  <details>
+    <summary style="cursor: pointer; font-weight: bold;">BibLaTeX Citation</summary>
+    <div style="position: relative; margin-top: 0.5rem;">
+      <button onclick="copyBibtex{{ .Page.File.UniqueID }}()" style="position: absolute; top: 0; right: 0; font-size: 0.8rem; padding: 0.3rem 0.5rem;">Copy</button>
+      <pre id="bibtex-block-{{ .Page.File.UniqueID }}"><code>@online{ dialid{{ .Page.Date.Format "2006"}},
+  author = { {{ with .Page.Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }} },
+  title = { {{ .Page.Title }} },
+  date = { {{ .Page.Date.Format "2006-01-02" }} },
+  url = { {{ .Page.Permalink }} }
+}</code></pre>
+    </div>
+  </details>
+
+  <p style="margin-top: 1rem;">
+    Licence: <a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">creativecommons.org/licenses/by/4.0</a>
+  </p>
+
+  <hr>
+</div>
+
+<script>
+  function copyBibtex{{ .Page.File.UniqueID }}() {
+    const text = document.getElementById("bibtex-block-{{ .Page.File.UniqueID }}").innerText;
+    navigator.clipboard.writeText(text).then(function () {
+      alert("BibLaTeX citation copied to clipboard!");
+    }, function (err) {
+      alert("Failed to copy text: " + err);
+    });
+  }
+</script>

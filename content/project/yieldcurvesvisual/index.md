@@ -42,3 +42,5 @@ The app consists of the following 4 interactive charts:
 In finance, the yield curve is a graph which depicts how the yields on debt instruments – such as bonds – vary as a function of their years remaining to maturity.
 
 [Ronald Melicher](https://www.colorado.edu/business/leeds-directory/faculty/ronald-melicher) and Merle Welshans have identified several characteristics of a properly constructed yield curve. It should be based on a set of securities which have differing lengths of time to maturity, and all yields should be calculated as of the same point in time. All securities measured in the yield curve should have similar credit ratings, to screen out the effect of yield differentials caused by credit risk. For this reason, many traders closely watch the yield curve for U.S. Treasury (Bank of England in the UK) debt securities, which are considered to be risk-free.
+
+{{< citations >}}

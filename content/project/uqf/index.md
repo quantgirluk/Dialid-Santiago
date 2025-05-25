@@ -34,6 +34,8 @@ My aim is to provide an open-source repository where people interested in a care
 - This project is under construction 🦺 existing material may change and new recipes will be released on an ongoing basis 🌱
 - If you like this project, please give it a star ⭐️ in [GitHub](https://github.com/quantgirluk/Understanding-Quantitative-Finance)
 
+{{< citations >}}
+
 <!-- --- -->
 
 <!-- ### Because Speed

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Finance on Quant Girl</title>
+    <title>Finance on Home</title>
     <link>http://localhost:1313/categories/finance/</link>
-    <description>Recent content in Finance on Quant Girl</description>
+    <description>Recent content in Finance on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© Dialid Santiago 2025</copyright>
+    <copyright>©Dialid Santiago 2025</copyright>
     <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/finance/index.xml" rel="self" type="application/rss+xml" />
     <item>

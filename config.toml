@@ -1,9 +1,9 @@
 baseURL = "https://quantgirl.com"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Quant Girl"
+title = "Home"
 author = "Dialid Santiago"
-copyright = "© Dialid Santiago 2025" # set to override the auto generated copyright using org info and now year
+copyright = "©Dialid Santiago 2025" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
 metaDataFormat = "yaml"
@@ -33,7 +33,7 @@ enableEmoji = true
   orgLocal = "London, UK"
   description = "My digital garden."
   favicon = "img/favicon.ico"
-  logo = "img/blogophonic-mark-dark.png"
+#  logo = "img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
