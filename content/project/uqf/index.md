@@ -1,12 +1,13 @@
 ---
-title: "UQF"
-subtitle: "Understanding Quantitative Finance: A collection of notes exploring topics in Quantitative Finance (QF)."
+title: "Understanding Quantitative Finance"
+subtitle: "A collection of notes exploring topics in Quantitative Finance"
 excerpt: "📒 A collection of notes exploring a variety of topics in Quantitative Finance (QF). The idea is to use Python 🐍to illustrate the theoretical concepts and help you to get a better understanding of each concept."
 date: 2023-07-15
 author: "D. Santiago"
 draft: false
 tags:
-  - hugo-site
+  - Tutorials
+  - Stochastic Processes
 categories:
   - Python
   - Finance

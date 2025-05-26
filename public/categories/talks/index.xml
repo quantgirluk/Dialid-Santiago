@@ -10,11 +10,11 @@
     <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>KCL 2025</title>
-      <link>http://localhost:1313/blog/kcl/</link>
+      <title>KCL Guest Lecture 2025</title>
+      <link>http://localhost:1313/blog/lecture-kcl/</link>
       <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/kcl/</guid>
-      <description>&lt;p&gt;This year, we focused on the problem of estimating price sensitivities (a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods, thoroughly exploring its mathematical formulation, along with a practical demonstration of its implementation in Python. 🐍&lt;/p&gt;&#xA;&lt;p&gt;Some of the points that we discussed during the session:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I shared a bit about my experience working as a Quant after graduating from a STEM background (and having no previous experience).&lt;/li&gt;&#xA;&lt;li&gt;More generally, we discussed what does it mean to be a Quant and how this has changed over the years.&lt;/li&gt;&#xA;&lt;li&gt;We talked about the large number of opportunities that currently exist in the Quant world. To put things in perspective, we took a look at this image from the book “The Front Office Manual: The Definitive Guide to Trading, Structuring and Sales (Global Financial Markets) (2013)” by A. Sutherland, and J. Court; and commented on how much things have changed since the book was published. Today, the picture should probably look more like this one ⬇️ which translates in much more opportunities for Quants!&lt;/li&gt;&#xA;&lt;li&gt;Then, we passed to the more technical part of the agenda: defining the problem of estimating Greeks and exploring different mathematical techniques to solve it.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can access the lecture materials in the provided Jupyter notebook and slides here.&#xA;Jupyter Notebook: Malliavin Greeks under BS dynamics&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/lecture-kcl/</guid>
+      <description>&lt;p&gt;Last month, I had the privilege of delivering a guest lecture at &#xA;&lt;a href=&#34;https://www.kcl.ac.uk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;King&amp;rsquo;s College London&lt;/a&gt; to MSc students enrolled&#xA;in the &#xA;&lt;a href=&#34;https://www.kcl.ac.uk/study/postgraduate-taught/courses/computational-finance-msc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Computational Finance&lt;/a&gt; program. This year, we focused on the problem of estimating price sensitivities&#xA;(a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods, thoroughly exploring its mathematical formulation,&#xA;along with a practical demonstration of its implementation in Python 🐍. Here is a summary of the points that we&#xA;discussed during the session&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

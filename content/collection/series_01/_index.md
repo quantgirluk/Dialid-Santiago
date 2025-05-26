@@ -10,7 +10,9 @@ date: 2023-12-01
 subtitle: "Countdown to Christmas 🎄"
 description: |
   Countdown to Christmas 🎄
-excerpt: 
+excerpt: "A seasonal tradition of daily explorations. Inspired by Advent of Code, 
+this series is my own way of celebrating the end of the year and count down the days to 
+Christmas 🎄—opening a new door each day to unwrap ideas in probability, randomness, and beyond."
 author: D.Santiago
 show_author_byline: false
 show_post_date: false

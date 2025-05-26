@@ -8,6 +8,7 @@ featured: true
 draft: false
 tags:
 - Python
+- Stochastic Processes
 categories:
 - Python
 # layout options: single or single-sidebar

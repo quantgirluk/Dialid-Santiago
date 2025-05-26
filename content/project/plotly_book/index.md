@@ -6,7 +6,8 @@ date: 2025-01-01
 author: "D. Santiago"
 draft: false
 tags:
-  - hugo-site
+  - Tutorials
+  - Plotly
 categories:
   - Python
   - Data-viz

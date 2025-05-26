@@ -4,7 +4,7 @@ description: "A random collection of notes, thoughts, and references."
 author: "D. Santiago"
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
-show_author_byline: true
+show_author_byline: false
 show_post_date: true
 show_button_links: true
 # for listing page layout

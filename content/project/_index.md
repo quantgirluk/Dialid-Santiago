@@ -1,9 +1,10 @@
 ---
 title: Portfolio
-description: "Some of the open-source projects that I have developed in my free time over ther years."
+description: "A selection of open-source projects I’ve developed over the years, 
+independently of my professional work—driven by curiosity, community, and the joy of building."
 author: "D. Santiago"
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
 show_button_links: true
 # for listing page layout
@@ -14,7 +15,7 @@ image: butterflies.jpg
 sidebar: 
   title: Open Source Projects
   description: |
-    Some of the open-source projects that I have developed in my free time over ther years.
+    Some of the open-source projects that I have developed over the years.
   author: "D. Santiago"
   text_link_label: ""
   text_link_url: ""

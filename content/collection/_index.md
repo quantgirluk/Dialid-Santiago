@@ -2,19 +2,18 @@
 title: "Collections"
 subtitle: "A collection, minus the blog."
 description: |
-  Sometimes you want a souped-up series- a bundle of related pages 
-  meant to be read in sequence. This section is like a blog series, 
-  minus the blog.
+  A quiet archive of recurring thoughts—collected fragments that 
+  echo through seasons and themes.
 author: D. Santiago
-show_post_thumbnail: false
+show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
 show_author_byline: false
 show_post_date: false
 show_button_links: true
-sidebar_left: false
-# for listing page layout
-layout: list-sidebar # list, list-sidebar
+#sidebar_left: false
 
+# for listing page layout
+layout: list # list, list-sidebar
 # set up common front matter for all individual pages in series
 cascade:
   layout: single-series 

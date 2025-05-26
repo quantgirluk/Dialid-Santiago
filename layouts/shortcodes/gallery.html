@@ -1,0 +1,42 @@
+<div class="gallery">
+  {{ range .Page.Resources.Match (.Get "match") }}
+    <a href="{{ .RelPermalink }}" class="glightbox" data-gallery="gallery1" data-title="{{ .Name }}">
+      <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="gallery-thumb"/>
+    </a>
+  {{ end }}
+</div>
+
+<style>
+.gallery-nav {
+  margin-bottom: 1rem;
+}
+.back-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+.back-button:hover {
+  background-color: #ddd;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+.gallery-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.gallery-thumb:hover {
+  transform: scale(1.05);
+}
+</style>
