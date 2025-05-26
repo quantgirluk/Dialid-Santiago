@@ -22,7 +22,6 @@
 </main>
 
 
-
 <aside class="page-sidebar" role="complementary">
   {{ if .TableOfContents }}
   <section class="toc-sidebar pb3">
@@ -33,8 +32,8 @@
       </nav>
     </details>
   </section>
-  {{ .Scratch.Set "details" "closed" }}
-  {{ partial "shared/post-details.html" . }}
+<!--  {{ .Scratch.Set "details" "open" }}-->
+<!--  {{ partial "shared/post-details.html" . }}-->
     {{ partial "shared/sidebar-scaffold.html" . }}
   {{ end }}
 </aside>

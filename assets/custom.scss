@@ -2,3 +2,21 @@
 strong, b {
     color: rgb(187, 0, 106); /* Or any other color you prefer */
   }
+
+
+.pdf-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 130%; /* Adjust height ratio for mobile */
+  height: 0;
+  overflow: hidden;
+}
+
+.pdf-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

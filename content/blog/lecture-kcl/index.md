@@ -54,10 +54,18 @@ You can access the lecture materials here:
 
 - Slides
 
-<iframe src="/docs/Malliavin_KCL.pdf" width="100%" height="400px" style="border: none;">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/docs/Malliavin_KCL.pdf">Download PDF</a>.
-</iframe>
+[//]: # (<iframe src="/docs/Malliavin_KCL.pdf" width="100%" height="400px" style="border: none;">)
+
+[//]: # (    This browser does not support PDFs. Please download the PDF to view it: )
+
+[//]: # (    <a href="/docs/Malliavin_KCL.pdf">Download PDF</a>.)
+
+[//]: # (</iframe>)
+
+
+<div class="pdf-container">
+  <iframe src="/docs/Malliavin_KCL.pdf" width="900%" height="400px" style="border: none;"></iframe>
+</div>
 
 
 I cannot believe this is already my 4th year visiting KCL-- it was amazing to be there and have the opportunity to engage with both the students and their professors who organise these lecture series, acting as a crucial bridge between industry and academia.
