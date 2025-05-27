@@ -2,104 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/collection/series_01/01-2023/</loc>
+    <loc>https://quantgirl.com/collection/series_01/01-2023/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/series_01/02-2024/</loc>
+    <loc>https://quantgirl.com/collection/series_01/02-2024/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/series_01/</loc>
+    <loc>https://quantgirl.com/collection/series_01/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://quantgirl.com/blog/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/career/</loc>
+    <loc>https://quantgirl.com/categories/career/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://quantgirl.com/categories/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://quantgirl.com/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/lecture-kcl/</loc>
+    <loc>https://quantgirl.com/blog/lecture-kcl/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://quantgirl.com/tags/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/talks/</loc>
+    <loc>https://quantgirl.com/categories/talks/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/talks/</loc>
+    <loc>https://quantgirl.com/tags/talks/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/data-viz/</loc>
+    <loc>https://quantgirl.com/categories/data-viz/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/plotly/</loc>
+    <loc>https://quantgirl.com/tags/plotly/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/plotly_book/</loc>
+    <loc>https://quantgirl.com/project/plotly_book/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/</loc>
+    <loc>https://quantgirl.com/project/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/python/</loc>
+    <loc>https://quantgirl.com/categories/python/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tutorials/</loc>
+    <loc>https://quantgirl.com/tags/tutorials/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/collection/</loc>
+    <loc>https://quantgirl.com/collection/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/yieldcurvesvisual/</loc>
+    <loc>https://quantgirl.com/project/yieldcurvesvisual/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/finance/</loc>
+    <loc>https://quantgirl.com/categories/finance/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/stochastic-processes/</loc>
+    <loc>https://quantgirl.com/tags/stochastic-processes/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/uqf/</loc>
+    <loc>https://quantgirl.com/project/uqf/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/aleatory/</loc>
+    <loc>https://quantgirl.com/project/aleatory/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://quantgirl.com/tags/python/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/finance/</loc>
+    <loc>https://quantgirl.com/tags/finance/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/quant-project/</loc>
+    <loc>https://quantgirl.com/blog/quant-project/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/fanchart/</loc>
+    <loc>https://quantgirl.com/project/fanchart/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/form/</loc>
+    <loc>https://quantgirl.com/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://quantgirl.com/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/twopiece/</loc>
+    <loc>https://quantgirl.com/project/twopiece/</loc>
     <lastmod>2019-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://quantgirl.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/contributors/</loc>
+    <loc>https://quantgirl.com/contributors/</loc>
   </url><url>
-    <loc>http://localhost:1313/license/</loc>
+    <loc>https://quantgirl.com/license/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://quantgirl.com/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/talk/</loc>
+    <loc>https://quantgirl.com/talk/</loc>
   </url>
 </urlset>

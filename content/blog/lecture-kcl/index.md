@@ -52,7 +52,6 @@ You can access the lecture materials here:
 
 - [Jupyter Notebook: Malliavin Greeks under BS dynamics](https://quantgirluk.github.io/Understanding-Quantitative-Finance/malliavin_delta_gbm.html)
 
-- Slides
 
 [//]: # (<iframe src="/docs/Malliavin_KCL.pdf" width="100%" height="400px" style="border: none;">)
 
@@ -62,10 +61,14 @@ You can access the lecture materials here:
 
 [//]: # (</iframe>)
 
-
 <div class="pdf-container">
-  <iframe src="/docs/Malliavin_KCL.pdf" width="900%" height="400px" style="border: none;"></iframe>
+  <iframe src="/docs/Malliavin_KCL.pdf" allowfullscreen ></iframe>
 </div>
+
+<p class="pdf-download-link">
+  📄 <a href="/docs/Malliavin_KCL.pdf" target="_blank">View or download PDF</a> if it doesn't load correctly.
+</p>
+
 
 
 I cannot believe this is already my 4th year visiting KCL-- it was amazing to be there and have the opportunity to engage with both the students and their professors who organise these lecture series, acting as a crucial bridge between industry and academia.
