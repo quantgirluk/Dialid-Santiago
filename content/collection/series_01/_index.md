@@ -7,9 +7,9 @@ show_button_links: true
 weight: 2
 publishDate: 2023-12-01
 date: 2023-12-01
-subtitle: "Countdown to Christmas 🎄"
+subtitle: "A seasonal tradition of daily explorations. Inspired by Advent of Code, this series is my own way of celebrating the end of the year and count down the days to Christmas 🎄"
 description: |
-  Countdown to Christmas 🎄
+  A seasonal tradition of daily explorations. Inspired by Advent of Code, this series is my own way of celebrating the end of the year and count down the days to Christmas 🎄
 excerpt: "A seasonal tradition of daily explorations. Inspired by Advent of Code, 
 this series is my own way of celebrating the end of the year and count down the days to 
 Christmas 🎄—opening a new door each day to unwrap ideas in probability, randomness, and beyond."

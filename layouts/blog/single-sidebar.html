@@ -32,8 +32,8 @@
       </nav>
     </details>
   </section>
-<!--  {{ .Scratch.Set "details" "open" }}-->
-<!--  {{ partial "shared/post-details.html" . }}-->
+  {{ .Scratch.Set "details" "open" }}
+  {{ partial "shared/post-details.html" . }}
     {{ partial "shared/sidebar-scaffold.html" . }}
   {{ end }}
 </aside>

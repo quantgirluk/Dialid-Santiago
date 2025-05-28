@@ -7,11 +7,11 @@ show_social_links: true # specify social accounts in site config
 # audio_link_label: "How to say my name" # leave blank to exclude
 link_list_label: "Recommendations" # bookmarks, elsewhere, etc.
 link_list:
-- name: The Anxious Generation
+- name: 📚 The Anxious Generation
   url: https://en.wikipedia.org/wiki/The_Anxious_Generation
-- name: The Last of the Sea Women
+- name: 🍿 The Last of the Sea Women
   url: https://en.wikipedia.org/wiki/The_Last_of_the_Sea_Women
-- name: Talk Python to Me
+- name: 🎧 Talk Python to Me
   url: https://talkpython.fm
 ---
 

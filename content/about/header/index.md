@@ -13,26 +13,25 @@ as a Quant (short for Financial Quantitative Analyst).
 
 My work focuses on designing and implementing 
 **mathematical models** to price financial instruments and manage risk 
-across a broad range of asset classes, including **Equities**, **Credit**, **Commodities**, and **Rates**.
+across a broad range of asset classes, including Equities, Credit, Commodities, and Rates.
 
 I hold a **PhD in Statistics** from the [University of Warwick](https://warwick.ac.uk/fac/sci/statistics/), where I
 spent four exciting years researching non-linear stochastic processes. Prior to that, I earned 
 an **M.Sc. in Probability and Statistics** and a **B.Sc. in Mathematics**.
 
 
-Currently, I work in the **Cross-Asset Front Office Quant** team 
+Currently, I work in the Front Office Quant team 
 at **Bank of America**. Over the course of my career, I’ve had the opportunity 
 to collaborate with different teams at institutions like **Citigroup**, **Barclays**, and **The Co-operative Bank**, 
 contributing to a wide range of projects across the financial industry.
-
-
-
+ 
 
 I’m passionate about **turning academic research into practical tools that solve real problems in finance**. I also 
 have a strong interest in **data visualization** and use it extensively to communicate complex concepts 
 clearly and reveal meaningful insights.
 
-Last but certainly not least—I’m a proud **mom** to a spirited toddler ❤️ who keeps me on my toes and fills most of my so-called "free" time. 
+
+Last but certainly not least—I’m a proud **mom to a spirited toddler** ❤️ who keeps me on my toes and fills most of my so-called "free" time. 
 When I do get a quiet moment, I enjoy building open-source tools and writing here.
 
 
