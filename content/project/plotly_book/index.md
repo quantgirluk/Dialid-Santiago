@@ -23,11 +23,6 @@ links:
   url: https://github.com/quantgirluk/Plotly-Dash-Cookbook
 ---
 
-<!-- ![Formspree Logo](formspree-logo.png) -->
-
-<!-- ## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website. -->
-
-<!-- --- -->
 ### Overview
 
 This book offers practical, hands-on recipes covering a wide range of techniques and tools, making it an essential resource for both beginners and experienced users of Plotly and Dash.
