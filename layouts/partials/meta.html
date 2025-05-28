@@ -1,34 +1,35 @@
+{{/* Save some commonly-used variables */}}
 {{ $permalink := .Permalink }}
 {{ $page := . }}
 {{ $section := $page.CurrentSection }}
 
-<!-- Meta tags -->
+<!-- Basic meta tags -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {{ hugo.Generator }}
 
-<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Page.Title }} | {{ site.Title }}{{ end }}</title>
+<!-- Page <title> tag -->
+<title>
+  {{ if .IsHome }}
+    {{ .Title }}  {{/* Homepage title */}}
+  {{ else }}
+    {{ .Page.Title }} | {{ site.Title }}  {{/* Other pages: "Page Title | Site Title" */}}
+  {{ end }}
+</title>
 
+<!-- Twitter meta tags for site and author -->
 {{ with site.Params.twitter }}
   <meta name="twitter:site" content="@{{ . }}">
   <meta name="twitter:creator" content="@{{ . }}">
 {{ end }}
 
-<!-- Description logic -->
-{{ $desc := "" }}
-{{ if .Params.description }}
-  {{ $desc = .Params.description }}
-{{ else if .Params.subtitle }}
-  {{ $desc = .Params.subtitle }}
-{{ else if .Params.excerpt }}
-  {{ $desc = .Params.excerpt }}
-{{ else }}
-  {{ $desc = site.Params.description }}
-{{ end }}
+<!-- Page description logic -->
+{{/* Priority: page.description > subtitle > excerpt > site.description */}}
+{{ $desc := .Params.description | default .Params.subtitle | default .Params.excerpt | default site.Params.description }}
 <meta name="description" content="{{ $desc }}">
 
-<!-- OpenGraph tags -->
+<!-- OpenGraph (Facebook/LinkedIn/etc.) tags -->
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Page.Title }} | {{ site.Title }}{{ end }}">
 <meta property="og:description" content="{{ $desc }}">
@@ -36,36 +37,38 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}">
 
-<!-- Sharing image logic -->
+<!-- Begin logic to determine the sharing image -->
 {{ $image := "" }}
 
-{{/* 1. From page front matter (including _index.md) */}}
-{{ with .Params.images }}
-  {{ $img := index . 0 }}
+{{ if .IsHome }}
+  {{/* If we are on the homepage, always use this custom image */}}
+  {{ $image = "/img/social-share.png" | absURL }}
+{{ else if .Params.images }}
+  {{/* If the page has .Params.images defined, use the first image in the list */}}
+  {{ $img := index .Params.images 0 }}
   {{ if strings.HasPrefix $img "/" }}
-    {{ $image = $img | absURL }}
+    {{ $image = $img | absURL }}  {{/* Absolute path */}}
   {{ else }}
-    {{ $image = printf "%s%s" $permalink $img }}
+    {{ $image = printf "%s%s" $permalink $img }}  {{/* Relative path, prepend page permalink */}}
   {{ end }}
 {{ else }}
+  {{/* Otherwise, try to pull an image from the page bundle resources */}}
+  {{ $res := .Resources.ByType "image" }}
+  {{ $leaf := $res.GetMatch "*feature*" }}       {{/* Named feature image */}}
+  {{ $hex := $res.GetMatch "*hex*" }}            {{/* Named hex image */}}
+  {{ $branch := ($section.Resources.ByType "image").GetMatch "*sidebar*" }}  {{/* From branch bundle */}}
 
-  {{/* 2. From page resources (leaf/branch bundles) */}}
-  {{ $images := $page.Resources.ByType "image" }}
-  {{ $leaf := $images.GetMatch "*feature*" }}
-  {{ $hex := $images.GetMatch "*hex*" }}
-  {{ $branch := ($section.Resources.ByType "image").GetMatch "*sidebar*" }}
-  {{ $resourceImage := or $hex $leaf $branch }}
-  {{ with $resourceImage }}
+  {{ with or $hex $leaf $branch }}
     {{ $image = .Permalink }}
   {{ else }}
-
-    {{/* 3. Fallback to site-wide sharing image */}}
+    {{/* If all else fails, use the global sharing_image from config.toml */}}
     {{ with site.Params.sharing_image }}
       {{ $image = . | absURL }}
     {{ end }}
   {{ end }}
 {{ end }}
 
+<!-- Output social sharing image tags if image is found -->
 {{ if $image }}
   <meta property="og:image" content="{{ $image }}">
   <meta name="twitter:image" content="{{ $image }}">
