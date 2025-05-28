@@ -11,7 +11,7 @@ tags:
 excerpt: "Truly honored to be featured as the **March trailblazer** by the **Women in Banking and Finance** UK Network. 
 This is my conversation with them."
 layout: single
-coverImage: "comparison_delta_digital.png"
+coverImage: "featured-wibf.png"
 ---
 
 Truly honored to be featured as the **March trailblazer** by the **Women in Banking and Finance** UK Network. 

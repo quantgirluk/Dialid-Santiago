@@ -10,7 +10,7 @@ tags:
   - "Talks"
 excerpt: "Last month, I had the privilege of delivering a guest lecture at King’s College London to MSc students enrolled in the Computational Finance program. This year, we focused on the estimating price sensitivities (a.k.a. Greeks) using Malliavin Calculus + Monte Carlo methods."
 layout: single
-coverImage: "comparison_delta_digital.png"
+coverImage: "featured-kcl.jpg"
 ---
 
 Last month, I had the privilege of delivering a guest lecture at [King's College London](https://www.kcl.ac.uk) to MSc students enrolled 
