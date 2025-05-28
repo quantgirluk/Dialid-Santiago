@@ -176,3 +176,8 @@ cython_debug/
 
 .DS_Store
 .idea/*
+
+.hugo_build.lock
+node_modules/
+public/
+resources/
