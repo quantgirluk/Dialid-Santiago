@@ -1,0 +1,73 @@
+{{ $permalink := .Permalink }}
+{{ $page := . }}
+{{ $section := $page.CurrentSection }}
+
+<!-- Meta tags -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{ hugo.Generator }}
+
+<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Page.Title }} | {{ site.Title }}{{ end }}</title>
+
+{{ with site.Params.twitter }}
+  <meta name="twitter:site" content="@{{ . }}">
+  <meta name="twitter:creator" content="@{{ . }}">
+{{ end }}
+
+<!-- Description logic -->
+{{ $desc := "" }}
+{{ if .Params.description }}
+  {{ $desc = .Params.description }}
+{{ else if .Params.subtitle }}
+  {{ $desc = .Params.subtitle }}
+{{ else if .Params.excerpt }}
+  {{ $desc = .Params.excerpt }}
+{{ else }}
+  {{ $desc = site.Params.description }}
+{{ end }}
+<meta name="description" content="{{ $desc }}">
+
+<!-- OpenGraph tags -->
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Page.Title }} | {{ site.Title }}{{ end }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="{{ site.LanguageCode | default "en-us" }}">
+
+<!-- Sharing image logic -->
+{{ $image := "" }}
+
+{{/* 1. From page front matter (including _index.md) */}}
+{{ with .Params.images }}
+  {{ $img := index . 0 }}
+  {{ if strings.HasPrefix $img "/" }}
+    {{ $image = $img | absURL }}
+  {{ else }}
+    {{ $image = printf "%s%s" $permalink $img }}
+  {{ end }}
+{{ else }}
+
+  {{/* 2. From page resources (leaf/branch bundles) */}}
+  {{ $images := $page.Resources.ByType "image" }}
+  {{ $leaf := $images.GetMatch "*feature*" }}
+  {{ $hex := $images.GetMatch "*hex*" }}
+  {{ $branch := ($section.Resources.ByType "image").GetMatch "*sidebar*" }}
+  {{ $resourceImage := or $hex $leaf $branch }}
+  {{ with $resourceImage }}
+    {{ $image = .Permalink }}
+  {{ else }}
+
+    {{/* 3. Fallback to site-wide sharing image */}}
+    {{ with site.Params.sharing_image }}
+      {{ $image = . | absURL }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $image }}
+  <meta property="og:image" content="{{ $image }}">
+  <meta name="twitter:image" content="{{ $image }}">
+  <meta name="twitter:card" content="summary_large_image">
+{{ end }}
