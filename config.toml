@@ -42,9 +42,9 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "img/social-share.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "Quant_Girl"
 
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
