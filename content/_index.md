@@ -7,6 +7,7 @@ In my free time, I enjoy creating open-source projects that explore **mathematic
 **data analysis**, and **visualisation**, along with other topics that spark my curiosity."
 images:
   - img/home3.png
+  - images/social-share.jpg
 image_left: false
 text_align_left: true
 show_social_links: true # specify social accounts in site config
