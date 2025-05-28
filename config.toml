@@ -42,7 +42,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/social-share.png"
+  sharing_image = "https://dialidsantiago.com/img/social-share.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "Quant_Girl"
 
