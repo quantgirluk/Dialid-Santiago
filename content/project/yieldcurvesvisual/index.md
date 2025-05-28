@@ -18,12 +18,6 @@ links:
   url: https://github.com/quantgirluk/Yield-Curves-Visual
 ---
 
-<!-- ![Formspree Logo](formspree-logo.png) -->
-
-<!-- ## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website. -->
-
-<!-- --- -->
-
 ### Overview
 
 This **dash app** contains interactive charts illustrating the **risk-free Yield Curves** for the US and the UK. It was written in Python using the graphing open source library [Plotly](https://plotly.com/python/).
