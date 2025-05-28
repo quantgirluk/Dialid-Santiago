@@ -1,6 +1,7 @@
 ---
 title: Blog
-description: "A random collection of notes, thoughts, and references."
+description: "A loosely structured archive of random thoughts, questions, notes,  and references—some well-formed, others
+ exploratory. Part digital garden, part research diary."
 author: "D. Santiago"
 show_post_thumbnail: true
 thumbnail_left: false # for list-sidebar only
