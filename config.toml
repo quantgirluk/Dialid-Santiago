@@ -1,4 +1,4 @@
-baseURL = "https://quantgirl.com"
+baseURL = "https://dialidsantiago.com"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Home"
@@ -193,3 +193,8 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-KLWQ2KKRZK'
+
