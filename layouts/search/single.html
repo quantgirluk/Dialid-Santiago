@@ -1,0 +1,92 @@
+{{ define "main" }}
+<main class="page-main pa4 pb7" role="main">
+  <section class="page-content mw8 center">
+    <section class="grid">
+      <div class="grid__inner">
+        <h1 style="text-align: center;">Search</h1>
+        <div class="content" style="width: 100%; max-width: 800px; margin: 0 auto;">
+          <div style="text-align: center;">
+            <input type="text" id="search-input" placeholder="Search..." value=""
+            style="width: 100%; max-width: 600px; padding: 0.75rem; margin: 0 auto 2rem; font-size: 1rem;" />
+          </div>
+          <div id="search-results"></div>
+            <div style="height: 5rem;"></div>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+  let docs = [];
+  let idx;
+
+  async function buildIndex() {
+    const res = await fetch("{{ `index.json` | relURL }}");
+    docs = await res.json();
+
+    idx = lunr(function () {
+      this.ref('permalink');
+      this.field('title');
+      this.field('summary');
+      this.field('content');
+      docs.forEach(doc => this.add(doc));
+    });
+  }
+
+  function showResults(query) {
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+
+    if (!query || !idx) return;
+
+    const results = idx.search(query);
+
+    if (results.length === 0) {
+      resultsContainer.innerHTML = `<p>No results were found for "<strong>${query}</strong>".</p>`;
+      return;
+    }
+
+      const ul = document.createElement('ul');
+  ul.style = "list-style: disc; padding-left: 1.5rem;";
+
+  results.forEach(r => {
+    const doc = docs.find(d => d.permalink === r.ref);
+    const li = document.createElement('li');
+    li.style = "margin-bottom: 1rem;";
+    li.innerHTML = `
+      <a href="${doc.permalink}" style="font-weight: bold; text-decoration: none; color: #007acc;">
+        ${doc.title}
+      </a>
+      <p style="margin: 0.25rem 0 0; font-size: 0.9rem; color: #666;">
+        ${(doc.summary || '').split(' ').slice(0, 20).join(' ') + (doc.summary && doc.summary.split(' ').length > 20 ? '...' : '')}
+      </p>
+    `;
+    ul.appendChild(li);
+  });
+
+  resultsContainer.appendChild(ul);
+  }
+
+  document.addEventListener('DOMContentLoaded', async function () {
+    const input = document.getElementById('search-input');
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get('summary') || '';
+    input.value = initialQuery;
+
+    await buildIndex();
+
+    if (initialQuery) {
+      showResults(initialQuery);
+    }
+
+    input.addEventListener('keypress', function (e) {
+      if (e.key === 'Enter') {
+        const query = this.value.trim();
+        showResults(query);
+      }
+    });
+  });
+</script>
+{{ end }}
