@@ -72,6 +72,7 @@ enableEmoji = true
   # Specify use of utterances, giscus or disqus
   comments = "utterances"
 
+  searchTypes = ["blog", "collection", "project", "about", "page", "post"] # adapt to your content types
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     repo_name = "quantgirluk/site-utterances"
@@ -131,7 +132,7 @@ enableEmoji = true
   # Configure header
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Me"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -149,8 +150,13 @@ enableEmoji = true
     title = "A collection"
     url = "/collection/"
     weight = 4
+  [[menu.header]]
+    name = "Search"
+    title = "Search"
+    url = "/search/"
+    weight = 5
 
-  # Configure footer
+  # Configure 🔍
   [[menu.footer]]
     name = "License"
     title = "License"
@@ -198,3 +204,5 @@ enableEmoji = true
   [services.googleAnalytics]
     id = 'G-KLWQ2KKRZK'
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
