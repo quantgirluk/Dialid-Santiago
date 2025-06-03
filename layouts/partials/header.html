@@ -21,6 +21,37 @@
     {{ end }}
   </a>
 {{ end }}
+
+<!--  Add a theme toggle button-->
+  <button id="theme-toggle" aria-label="Toggle theme">
+  <i class="fas fa-circle-half-stroke"></i> <!-- Default: circle half stroke -->
+  </button>
+
+  <script>
+  const toggle = document.getElementById('theme-toggle');
+  const icon = toggle.querySelector('i');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const storedTheme = localStorage.getItem('theme');
+
+  // Apply initial theme and icon
+  const setIcon = (isDark) => {
+    icon.classList.remove('fa-sun', 'fa-moon');
+    icon.classList.add(isDark ? 'fa-moon' : 'fa-sun');
+  };
+
+  const isDark = storedTheme === 'dark' || (!storedTheme && prefersDark);
+  if (isDark) {
+    document.body.classList.add('dark-mode');
+  }
+  setIcon(isDark);
+
+  // Toggle theme and icon
+  toggle.addEventListener('click', () => {
+    const isDarkNow = document.body.classList.toggle('dark-mode');
+    localStorage.setItem('theme', isDarkNow ? 'dark' : 'light');
+    setIcon(isDarkNow);
+  });
+</script>
       {{ if .Site.Params.socialInHeader }}
         <div class="dib v-mid">
           {{ partial "shared/social-links.html" . }}

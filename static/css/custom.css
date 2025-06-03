@@ -1,0 +1,246 @@
+/* ================================
+   Color Variables - Light Mode
+   ================================ */
+:root {
+  --site-bg: #f2f2f1;
+  --sidebar-bg: #f2f2f1;
+  --text-color: #404040;
+  --sidebar-text: #ffffff;
+  --headline-color: #516DB0;
+  --heading-color: #516DB0;
+  --body-link: #516db0;
+  --nav-link: #516DB0;
+  --sidebar-link: #2c2857;
+  --footer-text: #706E6C;
+  --button-text: #516db0;
+  --button-hover-text: #dddddd;
+  --button-bg: #f2f2f1;
+  --button-hover-bg: #2c2857;
+  --border-color: #f2f2f1;
+  --bold-color: rgb(223, 115, 163);
+  /*--bold-color: rgb(187, 0, 106);*/
+  --underline-color: #516DB0; /* Light mode underline */
+  --nav-link: #516DB0;
+  --nav-underline: #516DB0;
+}
+
+/* ================================
+   Color Variables - Dark Mode
+   ================================ */
+body.dark-mode {
+  --site-bg: #1d202b;
+  --sidebar-bg: #1d202b;
+  --text-color: #e0e0e0;
+  --sidebar-text: #cccccc;
+  --headline-color: #ae7da7;
+  --heading-color: #ae7da7;
+  --body-link: #ae7da7;
+  --nav-link: #ae7da7;
+  --sidebar-link: #ae7da7;
+  --footer-text: #aaaaaa;
+  --button-text: #ae7da7;
+  --button-hover-text: #ae7da7;
+  --button-bg: #1d202b;
+  --button-hover-bg: #dddddd;
+  --border-color: #121212;
+  --bold-color: #b0d5ed;
+  --underline-color: #ae7da7; /* Dark mode underline */
+  --nav-link: #ae7da7;
+  --nav-underline: #ae7da7;
+}
+
+/* ================================
+   Global Styles
+   ================================ */
+body {
+  background-color: var(--site-bg);
+  color: var(--text-color);
+  /*font-family: system-ui, sans-serif;*/
+  /*line-height: 1.6;*/
+  /*transition: background-color 0.3s ease, color 0.3s ease;*/
+}
+
+header, footer, .sidebar {
+  background-color: var(--sidebar-bg);
+  /*color: var(--sidebar-text);*/
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: var(--heading-color)  !important;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  transition: color 0.3s ease;
+}
+
+/* ================================
+   Link Styles
+   ================================ */
+a {
+  color: var(--body-link)  !important;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--heading-color)  !important;
+  text-decoration: underline;
+}
+
+nav a {
+  color: var(--nav-link);
+}
+
+nav a:hover {
+  color: var(--heading-color)  !important;
+  text-decoration: underline;
+}
+
+.sidebar a {
+  color: var(--sidebar-link)  !important;
+}
+
+.sidebar a:hover {
+  color: var(--heading-color)  !important;
+}
+
+/* ================================
+   Button Styles
+   ================================ */
+button,
+#theme-toggle {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  /*display: flex;*/
+  /*align-items: center;*/
+  justify-content: center;
+  /*cursor: pointer;*/
+  /*transition: all 0.3s ease;*/
+}
+
+button:hover,
+#theme-toggle:hover {
+  background-color: var(--button-hover-bg);
+  color: var(--button-hover-text);
+}
+
+/* ================================
+   Other Elements
+   ================================ */
+hr {
+  border-color: var(--border-color);
+}
+
+footer {
+  background-color: var(--site-bg);
+  color: var(--footer-text);
+}
+
+body.dark-mode header,
+body.dark-mode .navbar,
+body.dark-mode .site-header {
+  background-color: var(--site-bg);
+  color: var(--text-color);
+}
+
+strong, b {
+  color: var(--bold-color) !important;
+  font-weight: bold;
+}
+
+
+nav a {
+  color: var(--nav-link)  !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/*nav a:hover {*/
+/*  color: var(--nav-link);*/
+/*  text-decoration: underline;*/
+/*  text-decoration-color: var(--nav-link);*/
+/*  text-underline-offset: 0.2em;*/
+/*}*/
+
+nav a {
+  color: var(--nav-link)  !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--nav-link)  !important;
+  text-decoration: none;
+  /*text-decoration: underline;*/
+  /*text-decoration-color: var(--underline-color);*/
+  /*text-underline-offset: 0.2em;*/
+}
+
+nav a {
+  color: var(--nav-link) !important;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/*nav a::after {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  bottom: -2px; !* adjust as needed *!*/
+/*  width: 0%;*/
+/*  height: 2px;*/
+/*  background-color: var(--nav-underline) !important;*/
+/*  transition: width 0.3s ease;*/
+/*}*/
+
+/*nav a:hover::after {*/
+/*  width: 100%;*/
+/*}*/
+
+
+
+/* Animate underline ONLY for links that do NOT have the .no-underline class */
+nav a:not(.no-underline)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 1px; /*This is the width of the underline*/
+  background-color: var(--nav-underline) !important;
+  transition: width 0.3s ease;
+}
+
+nav a:hover:not(.no-underline)::after {
+  width: 85%; /*This is how much the underline should be wider than the link*/
+}
+
+
+nav a[href="/"]::after {
+  display: none;
+}
+
+
+/*Usng a bottom border*/
+/*nav a {*/
+/*  color: var(--nav-link)  !important;*/
+/*  border-bottom: 2px solid transparent;*/
+/*  transition: all 0.3s ease;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*nav a:hover {*/
+/*  border-bottom: 2px solid var(--nav-underline)  !important;*/
+/*}*/
