@@ -446,9 +446,9 @@ You may be wondering how to find a recruiter. See the [FAQ section](#question-fa
 
 ## ❓ FAQs
 
-Please visit my [FAQs post](https://quantgirl.blog/faqs/).
+Please visit my [FAQs post](https://dialidsantiago.com/contributors/).
 
 Finally, If you have comments, feedback, or further questions please leave a note below
-and [connect with me](https://quantgirl.blog/contact/). All the best in your job hunting, I am sure you will do great 🌟
+and [connect with me](https://dialidsantiago.com/contact/). All the best in your job hunting, I am sure you will do great 🌟
 
 {{< citations >}}

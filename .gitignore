@@ -181,4 +181,5 @@ cython_debug/
 node_modules/
 public/
 resources/
+
 content/.obsidian/

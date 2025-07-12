@@ -14,30 +14,37 @@ layout: single
 coverImage: "featured-wibf.png"
 ---
 
-Truly honored to be featured as the **March trailblazer** by the **Women in Banking and Finance** UK Network. 
-This is my conversation with them, originally posted in the [WiBF website](https://www.wibf.org.uk/news/trailblazer-dialid-santiago/)
+Truly honored to be featured as the **March trailblazer** by the **Women in Banking and Finance** UK Network.
+This is my conversation with them, originally posted in
+the [WiBF website](https://www.wibf.org.uk/news/trailblazer-dialid-santiago/)
 
 #### How did you get involved with WIBF?
 
 I first learned about the WiBF on LinkedIn and started following their content straightaway. Then, someone in my network
-invited me to an event here in London and I had the chance to learn more about what they do. 
+invited me to an event here in London and I had the chance to learn more about what they do.
 The community is just amazing!
 
 #### What action have you taken in your career to help you find opportunities to develop and continue your growth?
 
 **Being curious and proactive**. Every time I start a new role; I make it a priority to understand the big-picture goals
-of the team and how my skills
-align with them. This allows me to identify where I can contribute effectively and what additional skills
-I need to develop to provide even more value. By taking the initiative to learn and ask questions,
+of the team and how my skills align with them. This allows me to identify:
+
+1. where I can contribute effectively, and
+2. what additional skills I need to develop to provide even more value.
+
+By taking the initiative to learn and ask questions,
 I not only improve my technical expertise but also gain a deeper understanding of the business and industry.
-This mindset has helped me become more adaptable and strategic in my career decisions, ensuring that I continue evolving
+This mindset has helped me become more **adaptable** and **strategic** in my career decisions, ensuring that I continue
+evolving
 in a meaningful direction.
 
-**Self-awareness**. Self-awareness has played a crucial role in managing my career. Being mindful of both my strengths
-and weaknesses gives me the perspective needed to seize opportunities confidently. When I see an exciting project where
-my skills can
-add value, I don’t hesitate to raise my hand. At the same time, I can recognise my knowledge gaps and actively
-work to bridge them whether through self-study, mentorship, or hands-on experience.
+**Self-awareness**. Self-awareness has played a crucial role in managing my career. Being mindful of both my **strengths**
+and **weaknesses** gives me  perspective.
+
+1. Knowing your strengths allows you to **seize opportunities confidently**. When I see an exciting project where my 
+skills can add value, I don’t hesitate to raise my hand.
+2. At the same time, I can **recognise** my **knowledge gaps** and actively work to bridge them whether through self-study,
+   mentorship, or hands-on experience.
 
 **Continuous Learning**. As a result, continuous learning has
 become an essential part of my career. I regularly attend **industry conferences** (such as Quant Minds, Bloomberg Quant
@@ -46,7 +53,7 @@ latest research by reading academic papers and industry articles. These efforts 
 trends and advancements in financial mathematics, programming, and data analysis. By prioritizing lifelong learning, I
 ensure that I am constantly evolving, refining my expertise, and adapting to new challenges and opportunities.
 
-**Sharing my experience and showcasing my work**. In 2019, after much hesitation, I launched Quant Girl, a platform
+**Sharing my experience and showcasing my work**. In 2019, after much hesitation, I launched **Quant Girl**, a platform
 where I
 share insights on financial mathematics, programming, statistics, and data visualization with the wider quant community.
 The response has been overwhelmingly positive—today, the blog has garnered over 100K views and has allowed me to connect
@@ -72,19 +79,19 @@ I would like to share three of my favourite books, along with and some of my hea
 
 ##### Books
 
-**Inside the Black Box**. A Simple Guide to Quantitative and High-Frequency Trading. Rishi K Narang offers in a
+**[Inside the Black Box](https://www.wiley.com/en-us/Inside+the+Black+Box%3A+A+Simple+Guide+to+Systematic+Investing%2C+3rd+Edition-p-9781119931904)**. A Simple Guide to Quantitative and High-Frequency Trading. Rishi K Narang offers in a
 straightforward, nontechnical style―supplemented by real-world examples and informative anecdotes―a reliable resource
 takes you on a detailed tour through the black box. He skilfully sheds light upon the work that quants do, lifting the
 veil of mystery around quantitative trading and allowing anyone interested in doing so to understand quants and their
 strategies.
 
-**My life as a Quant**. In this book, Emanuel Derman relives his exciting journey as one of the first high-energy
+**[My life as a Quant](https://emanuelderman.com/books/my-life-as-a-quant/)**. In this book, Emanuel Derman relives his exciting journey as one of the first high-energy
 particle
 physicists to migrate to Wall Street. He details his adventures in this field—analysing the incompatible personas of
 traders and quants and discussing the dissimilar nature of knowledge in physics and finance. Throughout this tale, he
 also reflects on the appropriate way to apply the refined methods of physics to the hurly-burly world of markets.
 
-**Manifesto: On Never giving up**. This is Bernardine Evaristo’s intimate and inspirational, no-holds-barred account of
+**[Manifesto: On Never giving up](https://bevaristo.com/manifesto-2/)**. This is Bernardine Evaristo’s intimate and inspirational, no-holds-barred account of
 how
 she did it, refusing to let any barriers stand in her way. She charts her creative rebellion against the mainstream and
 her life-long commitment to the imaginative exploration of ‘untold’ stories. And drawing deeply on her own experiences,
@@ -95,28 +102,28 @@ Finance Podcasts
 
 ##### Podcasts
 
-**Masters in Business** by Barry Ritholtz (Bloomberg) is probably my favourite finance podcast. It covers everything
+**[Masters in Business](https://www.youtube.com/playlist?list=PLe4PRejZgr0PzN7r8NikAnOqP70DHhoJ0)** by Barry Ritholtz (Bloomberg) is probably my favourite finance podcast. It covers everything
 from
 investment strategies and risk management to behavioural finance and macroeconomics—so it is useful for both traditional
 and quantitative finance professionals. Moreover, most guests share their experiences navigating the finance industry,
 providing valuable advice on skills, mindset, and professional growth (they even share book and show recommendations!).
 The perfect podcast if you are looking for deep, thoughtful conversations rather than just quick market updates.
 
-**Odd Lots** by Joe Weisenthal and Tracy Alloway (Bloomberg). It explores financial markets, economic trends, and career
+**[Odd Lots](https://www.bloomberg.com/oddlots?sref=frV97TwV&utm_medium=cpc_search&utm_campaign=NB_ENG_DSAXX_DSAXXXXXXXXXX_EVG_XXXX_XXX_Y0629_EN_EN_X_BLOM_GO_SE_XXX_XXXXXXXXXX&gclsrc=aw.ds&gad_source=1&gad_campaignid=21359970428&gbraid=0AAAAAD9e5yoN15BbiEPysBMjMKvUYxih8&gclid=CjwKCAjwi-DBBhA5EiwAXOHsGUeUYf17wf9x7blo1kDYkHVJLjR2iN-yRRbIoHSbiM1J-3tyFiwEmBoCb6EQAvD_BwE)** by Joe Weisenthal and Tracy Alloway (Bloomberg). It explores financial markets, economic trends, and career
 insights from top finance professionals. The guests range from hedge fund managers to policymakers, providing a
 well-rounded perspective on different career paths.
 
-**Flirting with Models** by Corey Hoffstein. It explores quantitative investing, risk management, and model-driven
+**[Flirting with Models](https://www.flirtingwithmodels.com)** by Corey Hoffstein. It explores quantitative investing, risk management, and model-driven
 strategies. It features discussions with top quant researchers, portfolio managers, and data scientists, making it an
 excellent resource for Quants.
 Programming Podcasts
 
-**Talk Python to Me** by Michael Kennedy, this podcast is perfect for both beginners and experienced Python developers.
+**[Talk Python to Me](https://talkpython.fm)** by Michael Kennedy, this podcast is perfect for both beginners and experienced Python developers.
 It
 covers Python frameworks, data science, AI, web development, and best practices, often featuring interviews with top
 Python developers.
 
-**Data Framed** by Adel Nehme and Richie Cotto (DataCamp). A weekly podcast exploring how artificial intelligence and
+**[Data Framed](https://www.datacamp.com/podcast)** by Adel Nehme and Richie Cotto (DataCamp). A weekly podcast exploring how artificial intelligence and
 data
 are changing the world around us.
 
@@ -130,7 +137,7 @@ on the job and in personal projects. This practice helps provide perspective on 
 weaknesses, and ensures that you are dedicating time to what truly matters to you. By reviewing periodically, you can
 identify patterns, refine your goals, and stay intentional about your career development.
 
-Actively seek conversations with people who offer **different perspectives**, particularly those with complementary
+Actively **seek conversations** with people who offer **different perspectives**, particularly those with complementary
 skills.
 Growth often comes from engaging with individuals who think differently, whether they come from different
 backgrounds/industries, have more/less experience than you, or specialize in areas outside your own expertise. These
@@ -143,7 +150,6 @@ especially early in a career, but burnout is real and can be counterproductive i
 through vacations, short breaks, or simply setting boundaries between work and personal life—is essential for
 maintaining creativity, productivity, and mental well-being. Rest allows for better problem-solving, improved
 decision-making, and sustained motivation.
-
 
 P.s. Many thanks to the Women in Business and Finance for thinking of me for this series.
 

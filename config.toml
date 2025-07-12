@@ -1,4 +1,4 @@
-baseURL = "https://quantgirl.com"
+baseURL = "https://dialidsantiago.com"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Home"
@@ -42,21 +42,21 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "img/social-share.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "Quant_Girl"
 
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
   #         poppy / primer / sky / violet / water
-  theme = "sky"
+  theme = ""
 
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = ""
+  custom_theme = "hex-colors"
 
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
@@ -72,10 +72,11 @@ enableEmoji = true
   # Specify use of utterances, giscus or disqus
   comments = "utterances"
 
+  searchTypes = ["blog", "collection", "project", "about", "page", "post"] # adapt to your content types
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
-    repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
+    repo_name = "quantgirluk/site-utterances"
+    issue_term = "https://github.com/quantgirluk/site-utterances" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
 
@@ -84,7 +85,7 @@ enableEmoji = true
   # needed to populate the below information.
   # https://www.joelnitta.com/posts/2021-11-24_using-giscus/
   [params.giscus]
-    repo = "apreshill/apero"
+    repo = "quantgirluk/site-utterances"
     repo_id = "[REPO ID]="
     category = "Comments"
     category_id = "[category ID]"
@@ -131,7 +132,7 @@ enableEmoji = true
   # Configure header
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Me"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -149,8 +150,13 @@ enableEmoji = true
     title = "A collection"
     url = "/collection/"
     weight = 4
+  [[menu.header]]
+    name = "Search"
+    title = "Search"
+    url = "/search/"
+    weight = 5
 
-  # Configure footer
+  # Configure 🔍
   [[menu.footer]]
     name = "License"
     title = "License"
@@ -193,3 +199,13 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-KLWQ2KKRZK'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params.assets]
+customCSS = ["css/custom.css"]
