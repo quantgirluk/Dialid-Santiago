@@ -9,11 +9,11 @@ tags:
   - "Books"
   - "Podcasts"
   - "Videos"
+  - "News"
 excerpt: "A mental scrapbook to make sense of the noise, reflect on what stood out, and maybe even spark something interesting for you too."
 layout: single
 coverImage: "featured-image.jpg"
 ---
-
 
 ### The Diary of a CEO: Geoffrey Hinton
 Just finished watching Geoffrey Hinton’s interview on The Diary of a CEO — a rare, candid conversation from one of the pioneers of AI.
@@ -35,4 +35,4 @@ Original from the [Rijksmuseum](https://www.rijksmuseum.nl/en).
   <img src="./featured-image.jpg" alt="Featured image" style="width: 80%; height: auto;" />
 </div>
 
-Source: Public Domain. Digitally enhanced by rawpixel.
+Source: Public Domain. Digitally enhanced by [rawpixel](https://www.rawpixel.com).
