@@ -1,0 +1,73 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <!-- ── Page intro ──────────────────────────────────────────────── -->
+  <section class="blog-intro mw7 center mb5">
+    <h2 class="f2 f1-ns lh-solid tc center fw4">{{ .Title | markdownify }}</h2>
+    {{ with .Description }}
+      <p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>
+    {{ end }}
+    {{ if .Params.show_author_byline }}
+      <p class="f7 measure lh-copy tc center i">
+        {{ with .Params.author }}Written by {{ . }}{{ end }}
+      </p>
+    {{ end }}
+  </section>
+
+  <!-- ── Blog list ──────────────────────────────────────────────── -->
+  <section class="blog-content mw7 center">
+    {{ $paginator := .Paginate (where .RegularPagesRecursive "Type" .Section).ByDate.Reverse }}
+
+    {{ range $paginator.Pages }}
+<!--      <article class="pb5">-->
+<!--        {{/* &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; FEATURED THUMBNAIL LOGIC &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; */}}-->
+<!--        {{ $thumb := "" }}-->
+
+<!--        &lt;!&ndash; 1️⃣  Prefer an explicit video_thumbnail param &ndash;&gt;-->
+<!--        {{ with .Params.video_thumbnail }}-->
+<!--          {{ $thumb = . }}-->
+<!--        {{ else }}-->
+<!--          &lt;!&ndash; 2️⃣  Otherwise derive from a YouTube video param &ndash;&gt;-->
+<!--          {{ with .Params.video }}-->
+<!--            {{ $id := replaceRE "(?i)(?:.*v=|.*be/|.*embed/)([\\w-]+).*" "$1" . }}-->
+<!--            {{ $thumb = printf "https://img.youtube.com/vi/%s/hqdefault.jpg" $id }}-->
+<!--          {{ else }}-->
+<!--            &lt;!&ndash; 3️⃣  Fallback to featured_image &ndash;&gt;-->
+<!--            {{ with .Params.featured_image }}-->
+<!--              {{ $thumb = . }}-->
+<!--            {{ else }}-->
+<!--              &lt;!&ndash; 4️⃣  Finally, extract first image from .Content &ndash;&gt;-->
+<!--              {{ $matches := findRE `<img.*?src="([^"]+)"` .Content }}-->
+<!--              {{ if gt (len $matches) 0 }}-->
+<!--                {{ $thumb = index (index $matches 0) 1 }}-->
+<!--              {{ end }}-->
+<!--            {{ end }}-->
+<!--          {{ end }}-->
+<!--        {{ end }}-->
+
+<!--        {{ if $thumb }}-->
+<!--          <a href="{{ .RelPermalink }}" class="db mb3">-->
+<!--            <img src="{{ $thumb }}" alt="{{ .Title }}" class="w-100 br2 shadow-1">-->
+<!--          </a>-->
+<!--        {{ end }}-->
+
+        <!-- ── Title & excerpt ───────────────────────────── -->
+        <h3 class="f3 fw6 mb2">
+          <a href="{{ .RelPermalink }}" class="link dark-gray hover-blue">{{ .Title }}</a>
+        </h3>
+
+        <div class="f5 lh-copy w-100">
+          {{ .Summary }}
+        </div>
+
+        <p class="mt3 tr">
+          <a href="{{ .RelPermalink }}" class="link blue hover-dark-blue fw5">Read More →</a>
+        </p>
+        <hr class="mv4 bt" style="border-top: 1px dashed #333;" />
+<!--        <hr class="mv4 bt b&#45;&#45;light-gray" style="border-top-style: dashed;" />-->
+      </article>
+    {{ end }}
+
+    {{ partial "shared/list-pagination.html" . }}
+  </section>
+</main>
+{{ end }}
