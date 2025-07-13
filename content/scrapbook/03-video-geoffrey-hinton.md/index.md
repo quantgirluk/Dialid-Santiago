@@ -1,7 +1,7 @@
 ---
 title: "The Diary of a CEO: Geoffrey Hinton"
 subtitle: ""
-date: "2025-07-01"
+date: "2025-07-12"
 author: "D. Santiago"
 categories:
   - "Scrapbook"
@@ -13,7 +13,6 @@ of a CEO — a rare, candid conversation from one of the pioneers of AI."
 layout: single
 #video: "https://www.youtube.com/watch?v=giT0ytynSqg&t=3741s"
 ---
-
 Just finished watching [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton#Views)’s interview on The Diary
 of a CEO — a rare, candid conversation from one of the pioneers of AI.
 
