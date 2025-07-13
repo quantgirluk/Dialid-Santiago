@@ -16,7 +16,7 @@ layout: single
 coverImage: "featured-typing.jpg"
 ---
 
-I have not been writing here as much as I would like lately. Partly this is just because life has
+Lately, I have not been writing here as much as I would like. Partly this is just because life has
 been super full:  work has been intense, and I have been also pouring energy on a couple of big personal projects
 (including a new tutorial, house renovations, and helping my little toddler in her learning-to-read-journey!)
 which are taking most of my time (in the best possible way).
@@ -48,6 +48,4 @@ out, and maybe even spark something interesting for you too. Check it out here: 
   <img src="featured-typing.jpg" alt="Source: Rawpixel" style="width: 80%; height: auto;" />
 </div>
 
-
-
-Source: Rawpixel
+Image Source: Rawpixel
