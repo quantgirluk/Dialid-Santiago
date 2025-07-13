@@ -1,15 +1,12 @@
 ---
 title: "The Limited Virtue of Complexity in a Noisy World"
 subtitle: ""
-date: "2025-07-01"
+date: "2025-07-07"
 author: "D. Santiago"
 categories:
   - "Scrapbook"
 tags:
-  - "Books"
-  - "Podcasts"
-  - "Videos"
-  - "News"
+  - "Papers"
 excerpt: "Paper by Cartea, Álvaro and Jin, Qi and Shi, Yuantao (April 02, 2025).
 Available at [SSRN](https://ssrn.com/abstract=5202064)."
 layout: single
