@@ -42,3 +42,13 @@ of a CEO — a rare, candid conversation from one of the pioneers of AI.
    disabilities. His story highlights a quiet crisis: academia struggles to retain top talent when it can’t offer the
    financial security that industry can. What does it say about our priorities when some of the most important work in
    science can’t afford to support a family?
+
+
+**Related**
+
+{{< linkpreview
+   url="https://torontolife.com/deep-dives/geoffrey-hinton-sounding-alarm-artificial-intelligence/"
+   title="Why Geoffrey Hinton is sounding the alarm about AI?, Toronto Life"
+   description="Rage Against The Machine: Geoffrey Hinton spent half a century developing artificial intelligence. Now, he worries that his life’s work could spell the end of humanity. Inside his mission to warn the world."
+   image="https://torontolife.mblycdn.com/tl/resized/2023/11/w2560/HINTON_FINAL01-scaled.jpg"
+>}}
