@@ -4,11 +4,11 @@ description: "A virtual scrapbook/commonplace book to make sense of the noise, r
 author: "D. Santiago"
 show_post_thumbnail: true
 show_author_byline: false
-show_post_date: false
+show_post_date: true
 show_button_links: true
 # for listing page layout
 layout: list # list, list-sidebar, list-grid
-#image: butterflies.jpg
+image: featured-typewriter.jpg
 
 # for list-sidebar layout
 sidebar: 
