@@ -58,9 +58,14 @@
       <p class="f6 gray mt0 mb2">
       {{ .Date.Format "January 2, 2006" }}
       </p>
-        <div class="f5 lh-copy w-100">
-          {{ .Summary }}
-        </div>
+
+    <div class="f5 lh-copy w-100">
+      {{ $doc := .Content }}
+      {{ $paragraphs := split $doc "</p>" }}
+      {{ range first 3 $paragraphs }}
+        {{ . | safeHTML }}{{ "</p>" | safeHTML }}
+      {{ end }}
+    </div>
 
         <p class="mt3 tr">
           <a href="{{ .RelPermalink }}" class="link blue hover-dark-blue fw5">Read More →</a>
