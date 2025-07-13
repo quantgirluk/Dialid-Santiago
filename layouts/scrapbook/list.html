@@ -55,6 +55,9 @@
           <a href="{{ .RelPermalink }}" class="link dark-gray hover-blue">{{ .Title }}</a>
         </h3>
 
+      <p class="f6 gray mt0 mb2">
+      {{ .Date.Format "January 2, 2006" }}
+      </p>
         <div class="f5 lh-copy w-100">
           {{ .Summary }}
         </div>
