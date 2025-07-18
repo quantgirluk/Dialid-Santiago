@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+
+    <section class="blog-intro mw7 center mb5">
+    <h2 class="f2 f1-ns lh-solid tc center fw4">{{ .Title | markdownify }}</h2>
+    {{ with .Description }}<p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}
+    {{ if .Params.show_author_byline }}<p class="f7 measure lh-copy tc center i">{{ if .Params.author }}Written by {{ .Params.author }}{{ end }}</p>{{ end }}
+   </section>
+  <section class="blog-content mw7 center">
+  {{ range site.Data.links }}
+    <article class="mv4 bb pb3">
+      <div class="flex flex-column flex-row-ns items-center">
+
+        <div class="w-100 w-70-ns pr3">
+          <h2 class="f3 mv2 lh-title underline">
+            <a href="{{ .link }}" target="_blank" rel="noopener" class="db">{{ .title }}</a>
+          </h2>
+          {{ with .excerpt }}<p class="f6 lh-copy mv2">{{ . }}</p>{{ end }}
+        </div>
+
+        {{ if .image }}
+        <div class="w-100 w-30-ns">
+          <a href="{{ .link }}" target="_blank" rel="noopener">
+            <img src="{{ .image | absURL }}" alt="{{ .title }}" class="db dim w-100">
+          </a>
+        </div>
+        {{ end }}
+
+      </div>
+    </article>
+  {{ end }}
+    </section>
+</main>
+{{ end }}
