@@ -16,7 +16,7 @@ show_button_links: true
 layout: list # list, list-sidebar
 # set up common front matter for all individual pages in series
 cascade:
-  layout: single-series 
+  layout: list-grid 
   sidebar:
     title: "Collections"
     author: D. Santiago
