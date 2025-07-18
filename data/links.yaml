@@ -1,0 +1,31 @@
+
+- title: "Bank of International Settlements"
+  image: "/images/bis.jpg"
+  link: "https://www.bis.org"
+  excerpt: "The BIS mission is to support central banks' pursuit of monetary and financial stability through international cooperation, and to act as a bank for central banks."
+
+- title: "FRED"
+  image: "/images/fred.png"
+  link: "https://fred.stlouisfed.org"
+  excerpt: "Federal Reserve Economic Data, FRED is an online database consisting of hundreds of thousands of economic data time series from scores of national, international, public, and private sources."
+
+- title: "OECD"
+  image: "/images/oecd.png"
+  link: "https://www.oecd.org/en.html"
+  excerpt: "The OECD (Organisation for Economic Co-operation and Development) is a forum and knowledge hub for data, analysis and best practices in public policy."
+
+- title: "Our World in Data"
+  image: "/images/owid.png"
+  link: "https://ourworldindata.org"
+  excerpt: "Scientific online publication that focuses on large global problems such as poverty, disease, hunger, war, climate change, population growth, existential risks, and inequality."
+
+- title: "Trading Economics"
+  image: "/images/trading_economics.png"
+  link: "https://tradingeconomics.com"
+  excerpt: "Trading Economics provides its users with accurate information for 196 countries including historical data and forecasts for more than 20 million economic indicators, exchange rates, stock market indexes, government bond yields and commodity prices."
+
+- title: "World Bank Open Data"
+  image: "/images/worldbank.jpg"
+  link: "https://data.worldbank.org"
+  excerpt: " Integrated set of curated development data from across the World Bank Group and partners."
+
