@@ -5,3 +5,5 @@
 
 Hello, and welcome to the repo for [my personal website](https://dialidsantiago.com)!
 
+If you like this project, please give it a star! ⭐️
+
