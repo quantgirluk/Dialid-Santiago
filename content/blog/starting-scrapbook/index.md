@@ -15,12 +15,12 @@ coverImage: "featured-typing.jpg"
 
 Lately, I have not been writing here as much as I would like. Partly this is just because life has
 been super full:  work has been intense, and I have been also pouring energy on a couple of big personal projects
-(including a new tutorial, house renovations, and helping my little toddler in her learning-to-read-journey!)
-which are taking most of my time (in the best possible way).
+(including working on a new tutorial 📝 house renovations 🏡 and helping my little toddler in her journey to 
+read-and-write ❤️) which are taking most of my time (in the best possible way).
 
 Another reason is that I like to spend a lot of time crafting what I share. I want my content to be of good
 quality, thoughtful, meaningful — something that can provide value rather than just add to the noise. After all,
-the internet is already full of repetitive content, some even created by LLMs (Large Language Models), bringing little
+the internet is already full of repetitive content, some created completely by LLMs (Large Language Models), bringing little
 or no value at all. On this topic, I recommend:
 
 - [The Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest)
