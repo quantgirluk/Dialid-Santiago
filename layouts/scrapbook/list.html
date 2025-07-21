@@ -60,16 +60,21 @@
       </p>
 
     <div class="f5 lh-copy w-100">
-      {{ $doc := .Content }}
-      {{ $paragraphs := split $doc "</p>" }}
-      {{ range first 3 $paragraphs }}
-        {{ . | safeHTML }}{{ "</p>" | safeHTML }}
-      {{ end }}
+      {{ .Content }}
     </div>
 
-        <p class="mt3 tr">
-          <a href="{{ .RelPermalink }}" class="link blue hover-dark-blue fw5">Read More →</a>
-        </p>
+
+<!--    <div class="f5 lh-copy w-100">-->
+<!--      {{ $doc := .Content }}-->
+<!--      {{ $paragraphs := split $doc "</p>" }}-->
+<!--      {{ range first 3 $paragraphs }}-->
+<!--        {{ . | safeHTML }}{{ "</p>" | safeHTML }}-->
+<!--      {{ end }}-->
+<!--    </div>-->
+
+<!--        <p class="mt3 tr">-->
+<!--          <a href="{{ .RelPermalink }}" class="link blue hover-dark-blue fw5">Read More →</a>-->
+<!--        </p>-->
         <hr class="mv4 bt" style="border-top: 1px dashed #333;" />
 <!--        <hr class="mv4 bt b&#45;&#45;light-gray" style="border-top-style: dashed;" />-->
       </article>
