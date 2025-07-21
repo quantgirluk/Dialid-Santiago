@@ -25,11 +25,11 @@ Just read this fascinating article in The New Yorker
 
 **Takeaways:**
 
-🔄 AI shifts our opportunity costs.
+🔄 A.I. shifts our opportunity costs.
 “College is all about opportunity costs.”
-Students today spend far less time (In the early 60s, college students spent an estimated 24 hours a week on schoolwork. Today, that figure is about 15) on schoolwork than in decades past. With tools like ChatGPT, what used to take hours now takes minutes. But what are we giving up when we outsource the messy, formative process of thinking?
+Students today spend far less time on schoolwork than in decades past. In the early 60s, college students spent an estimated 24 hours a week on schoolwork. Today, that figure is about 15 hours. With tools like ChatGPT, what used to take hours now takes minutes. But what are we giving up when we outsource the messy, formative process of thinking?
 
-⚡ The intoxication of hyper-efficiency.
+⚡ The intoxication of hyperefficiency.
 Most students start using A.I. as an organizer aid but quickly evolve to off-loading their thinking altogether.  Moreover, they describe using it like social media: constantly open, constantly tempting. Are we becoming so efficient that we forget why we’re thinking in the first place?
 
 ✍️ Yes, typing is fast... "but neuroscientists have found that the “embodied experience” of writing by hand taps into parts of the brain that typing does not. Being able to write one way—even if it’s more efficient—doesn’t make the other way obsolete."
