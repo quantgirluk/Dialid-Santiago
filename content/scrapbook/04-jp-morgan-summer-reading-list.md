@@ -1,6 +1,6 @@
 ---
-title: "J.P. Morgan Summer Reading List 2025"
-subtitle: ""
+title: ""
+subtitle: "J.P. Morgan Summer Reading List"
 date: "2025-07-18"
 author: "D. Santiago"
 categories:
