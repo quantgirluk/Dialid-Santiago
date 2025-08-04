@@ -10,7 +10,7 @@ tags:
   - "Videos"
 excerpt: "Just finished watching [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton#Views)’s interview on The Diary
 of a CEO — a rare, candid conversation from one of the pioneers of AI."
-layout: single
+layout: single-scrapbook
 video: "https://www.youtube.com/watch?v=giT0ytynSqg&t=3741s"
 ---
 Just finished watching [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton#Views)’s interview on The Diary

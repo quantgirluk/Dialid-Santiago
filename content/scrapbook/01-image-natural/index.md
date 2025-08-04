@@ -9,7 +9,7 @@ tags:
   - "Images"
   - "Art"
 excerpt: "A mental scrapbook to make sense of the noise, reflect on what stood out, and maybe even spark something interesting for you too."
-layout: single
+layout: single-scrapbook
 coverImage: "featured-natural-ensemble.jpg"
 ---
 

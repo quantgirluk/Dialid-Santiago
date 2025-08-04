@@ -9,7 +9,7 @@ tags:
   - "Papers"
 excerpt: "Paper by Cartea, Álvaro and Jin, Qi and Shi, Yuantao (April 02, 2025).
 Available at [SSRN](https://ssrn.com/abstract=5202064)."
-layout: single
+layout: single-scrapbook
 coverImage: "featured-typewriter.jpg"
 ---
 

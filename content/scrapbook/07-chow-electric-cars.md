@@ -7,8 +7,10 @@ categories:
 tags:
   - "Chart"
   - "Links"
-excerpt: ""
-layout: single
+excerpt: "Last year, more than one in five new cars sold globally were electric. But how does this vary worldwide?"
+layout: single-scrapbook
+coverImage: "new-cars-electric-2024-update-di.png"
+
 ---
 
 <div style="text-align: center;">

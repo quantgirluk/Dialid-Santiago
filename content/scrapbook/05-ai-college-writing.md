@@ -1,14 +1,13 @@
 ---
-title: ""
+title: "Reading about A.I."
 subtitle: ""
 date: "2025-07-21"
 author: "D. Santiago"
 categories:
 tags:
   - "Books"
-  - "Links"
 excerpt: "The demise of the English paper will end a long intellectual tradition, but it’s also an opportunity to reëxamine the purpose of higher education."
-layout: single
+layout: single-scrapbook
 video: "https://media.newyorker.com/clips/685c0672348e55988b789996/master/pass/r46994.mp4"
 ---
 

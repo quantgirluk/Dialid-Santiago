@@ -1,6 +1,5 @@
 ---
-title: ""
-subtitle: "J.P. Morgan Summer Reading List"
+title: "Books"
 date: "2025-07-18"
 author: "D. Santiago"
 categories:
@@ -8,7 +7,7 @@ tags:
   - "Books"
   - "Links"
 excerpt: "J.P. Morgan Summer Reading List"
-layout: single
+layout: single-scrapbook
 video: "https://privatebank.jpmorgan.com/eur/en/about-us/an-elevated-experience/summer-reading-list#book-list"
 ---
 
