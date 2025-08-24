@@ -10,7 +10,7 @@ tags:
   - "Python"
 excerpt: "Just watched this interesting talk from the PyconUS 2025 Conference."
 layout: single-scrapbook
-video: "https://www.youtube.com/watch?v=giT0ytynSqg&t=3741s"
+video: "https://www.youtube.com/embed/WfXfj29KhLo?si=oGTIdv_3_rayUWv6"
 ---
 
 Just finished watching this interesting talk from the PyconUS 2025 Conference.
