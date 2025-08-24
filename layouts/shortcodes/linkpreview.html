@@ -1,17 +1,46 @@
-{{ $url := .Get "url" }}
-{{ $title := .Get "title" }}
-{{ $description := .Get "description" }}
-{{ $image := .Get "image" }}
+{{- $url := .Get "url" -}}
+{{- $title := .Get "title" -}}
+{{- $description := .Get "description" -}}
+{{- $image := .Get "image" -}}
 
-<a href="{{ $url }}" target="_blank" rel="noopener" style="text-decoration: none;">
-  <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: flex; flex-direction: row; margin: 1em 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<a href="{{ $url }}" target="_blank" rel="noopener" style="text-decoration: none; display: block;">
+  <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: flex; flex-direction: row; margin: 1em 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); min-height: 80px; align-items: stretch;">
     {{ if $image }}
-      <img src="{{ $image }}" alt="Preview image" style="width: 120px; height: auto; object-fit: cover;">
+      <div style="flex-shrink: 0; width: 120px; display: flex;">
+        {{ if (strings.HasSuffix $image ".mp4") }}
+          <video style="width: 100%; height: 100%; object-fit: cover; display: block;" muted autoplay loop>
+            <source src="{{ $image }}" type="video/mp4">
+          </video>
+        {{ else }}
+          <img src="{{ $image }}" alt="Preview image" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+        {{ end }}
+      </div>
     {{ end }}
-    <div style="padding: 1em; flex: 1;">
-      <div style="font-size: 1.1em; font-weight: bold">{{ $title }}</div>
-      <div style="font-size: 0.9em; color: #666; margin-top: 0.5em;">{{ $description }}</div>
-      <div style="font-size: 0.8em; margin-top: 0.5em;">{{ $url }}</div>
+    <div style="padding: 1em; flex: 1; display: flex; flex-direction: column; justify-content: center; min-width: 0;">
+      <div style="font-size: 1.1em; font-weight: bold; margin-bottom: 0.5em; line-height: 1.2;">{{ $title }}</div>
+      {{ if $description }}
+        <div style="font-size: 0.9em; color: #666; margin-bottom: 0.5em; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ $description }}</div>
+      {{ end }}
+      <div style="font-size: 0.8em; color: #888; margin-top: auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ $url }}</div>
     </div>
   </div>
 </a>
+
+
+<!--{{ $url := .Get "url" }}-->
+<!--{{ $title := .Get "title" }}-->
+<!--{{ $description := .Get "description" }}-->
+<!--{{ $image := .Get "image" }}-->
+
+<!--<a href="{{ $url }}" target="_blank" rel="noopener" style="text-decoration: none;">-->
+<!--  <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; display: flex; flex-direction: row; margin: 1em 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">-->
+<!--    {{ if $image }}-->
+<!--      <img src="{{ $image }}" alt="Preview image" style="width: 120px; height: auto; object-fit: cover;">-->
+<!--    {{ end }}-->
+<!--    <div style="padding: 1em; flex: 1;">-->
+<!--      <div style="font-size: 1.1em; font-weight: bold">{{ $title }}</div>-->
+<!--      <div style="font-size: 0.9em; color: #666; margin-top: 0.5em;">{{ $description }}</div>-->
+<!--      <div style="font-size: 0.8em; margin-top: 0.5em;">{{ $url }}</div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</a>-->

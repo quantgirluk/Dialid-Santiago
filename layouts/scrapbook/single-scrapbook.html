@@ -15,27 +15,18 @@
         {{ partial "shared/btn-links.html" . }}
       </div>
       {{ end }}
-
       </header>
       <section class="post-body pt3 pb4">
-<!--        {{ .Content }}-->
-        {{ .Content | markdownify }}
+        {{ .Content }}
 <!--        &lt;!&ndash; 📚 Link to Scrapbook section &ndash;&gt;-->
 <!--          <p class="f6 measure lh-copy mv1">-->
 <!--            <a href="{{ "/scrapbook/" | relURL }}" class="link underline hover-blue">-->
 <!--              Read all posts in the Scrapbook section-->
 <!--            </a>-->
 <!--          </p>-->
-
-
-
-
-<!--        {{ .Scratch.Set "details" "closed" }}-->
-<!--        {{ partial "shared/post-details.html" . }}-->
-
-
+        {{ .Scratch.Set "details" "open" }}
+        {{ partial "shared/post-details.html" . }}
       </section>
-
       <footer class="post-footer">
         {{ partial "shared/post-pagination.html" . }}
       </footer>
