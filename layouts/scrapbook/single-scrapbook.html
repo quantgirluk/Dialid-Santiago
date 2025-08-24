@@ -18,8 +18,8 @@
 
       </header>
       <section class="post-body pt3 pb4">
-        {{ .Content }}
-
+<!--        {{ .Content }}-->
+        {{ .Content | markdownify }}
 <!--        &lt;!&ndash; 📚 Link to Scrapbook section &ndash;&gt;-->
 <!--          <p class="f6 measure lh-copy mv1">-->
 <!--            <a href="{{ "/scrapbook/" | relURL }}" class="link underline hover-blue">-->

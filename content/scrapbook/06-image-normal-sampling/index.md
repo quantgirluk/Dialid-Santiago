@@ -14,8 +14,12 @@ layout: single-scrapbook
 coverImage: "featured-normal-sampling.png"
 ---
 
-<div style="text-align: center;">
-  <img src="/images/featured-normal-sampling.png" alt="Featured image" style="width: 80%; height: auto;" />
-</div>
+[//]: # (<div style="text-align: center;">)
+
+[//]: # (  <img src="/images/featured-normal-sampling.png" alt="Featured image" style="width: 80%; height: auto;" />)
+
+[//]: # (</div>)
+
+{{< figure src="featured-normal-sampling.png" alt="My caption" class="center w-80" >}}
 
 Made with 🩵 by Dialid Santiago.

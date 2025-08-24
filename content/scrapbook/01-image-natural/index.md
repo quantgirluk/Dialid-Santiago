@@ -18,8 +18,13 @@ draughtsman [Anselmus Boëtius de Boodt](https://en.wikipedia.org/wiki/Anselmus_
 (1550–1632). Check out more of Anselmus Boëtius de Boodt's works in
 this [Rawpixel Gallery](https://www.rawpixel.com/board/561364/anselmus-boetius-boodt-free-public-domain-plant-and-animal-illustrations).
 
-<div style="text-align: center;">
-  <img src="/images/natural-ensemble-11.jpg" alt="Featured image" style="width: 80%; height: auto;" />
-</div>
+[//]: # (<div style="text-align: center;">)
+
+[//]: # (  <img src="/images/natural-ensemble-11.jpg" alt="Featured image" style="width: 80%; height: auto;" />)
+
+[//]: # (</div>)
+
+{{< figure src="featured-natural-ensemble.jpg" alt="My caption" class="center w-80" >}}
+
 
 Source: Public Domain. Original from the [Rijksmuseum](https://www.rijksmuseum.nl/en).
