@@ -6,7 +6,6 @@ author: "D. Santiago"
 categories:
   - "Scrapbook"
 tags:
-  - "Images"
   - "Art"
 excerpt: "A mental scrapbook to make sense of the noise, reflect on what stood out, and maybe even spark something interesting for you too."
 layout: single-scrapbook

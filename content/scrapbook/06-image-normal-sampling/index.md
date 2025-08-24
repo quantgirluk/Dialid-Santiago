@@ -6,9 +6,10 @@ author: "D. Santiago"
 categories:
   - "Scrapbook"
 tags:
-  - "Images"
-  - "Plots"
+  - "DataVis"
+  - "plots"
   - "matplotlib"
+  - "Quant"
 excerpt: "A mental scrapbook to make sense of the noise, reflect on what stood out, and maybe even spark something interesting for you too."
 layout: single-scrapbook
 coverImage: "featured-normal-sampling.png"

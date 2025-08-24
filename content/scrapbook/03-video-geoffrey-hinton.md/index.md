@@ -8,6 +8,7 @@ categories:
 tags:
   - "Podcasts"
   - "Videos"
+  - "A.I."
 excerpt: "Just finished watching [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton#Views)’s interview on The Diary
 of a CEO — a rare, candid conversation from one of the pioneers of AI."
 layout: single-scrapbook
