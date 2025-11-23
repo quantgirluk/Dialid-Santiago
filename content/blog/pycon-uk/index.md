@@ -1,7 +1,7 @@
 ---
 title: "Speaking at Pycon UK 2025"
 subtitle: ""
-date: 2025-09-30
+date: 2025-10-01
 author: "D. Santiago"
 categories:
   - "Python"
