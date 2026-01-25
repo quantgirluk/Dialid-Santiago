@@ -6,7 +6,7 @@ I love **maths**, **finance**, and **coding** —and I work at the intersection 
 In my free time, I enjoy creating open-source projects that explore **mathematical models**, 
 **data analysis**, and **visualisation**, along with other topics that spark my curiosity."
 images:
-  - img/home3.png
+  - img/home5.png
 image_left: false
 text_align_left: true
 show_social_links: true # specify social accounts in site config
