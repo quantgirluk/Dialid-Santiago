@@ -26,7 +26,7 @@ The documentary narrates not only the technical milestones but the human journey
 - 🚀 How [Guido van Rossum](https://gvanrossum.github.io)'s vision and persistence turned a small project (started over a Christmas break!) into a global phenomenon.
 - 🚨How the community navigated tough transitions (obviously we are talking about Python 2 → 3) and came out stronger.
 - 🐍 How tools like Anaconda helped Python explode in data science.
-- 🩵 And how a culture of inclusivity transformed PyCon into a space that reflects the diversity of the wider world.
+- ✨ And how a culture of inclusivity transformed PyCon into a space that reflects the diversity of the wider world.
 
 It’s fascinating to see that Python’s growth wasn’t just about clever design choices. Its real strength came from
 something deeper:

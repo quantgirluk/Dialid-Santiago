@@ -13,6 +13,6 @@ coverImage: "featured-cars.png"
 
 ---
 
-{{< figure src="featured-cars.png" alt="My caption" class="center w-80" >}}
+{{< figure src="/scrapbook/07-chow-electric-cars/featured-cars.png" alt="My caption" class="center w-80" >}}
 
 Source: [Our World in Data](https://ourworldindata.org/data-insights/what-share-of-new-cars-in-your-country-are-electric)

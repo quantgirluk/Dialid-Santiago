@@ -15,7 +15,7 @@
 
   <!-- ── Blog list ──────────────────────────────────────────────── -->
   <section class="blog-content mw7 center">
-    {{ $paginator := .Paginate (where .RegularPagesRecursive "Type" .Section).ByDate.Reverse }}
+    {{ $paginator := .Paginate ((where .RegularPagesRecursive "Type" .Section).ByDate.Reverse) 7 }}
 
     {{ range $paginator.Pages }}
 <!--      <article class="pb5">-->

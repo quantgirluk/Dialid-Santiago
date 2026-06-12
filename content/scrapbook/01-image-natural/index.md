@@ -19,11 +19,10 @@ this [Rawpixel Gallery](https://www.rawpixel.com/board/561364/anselmus-boetius-b
 
 [//]: # (<div style="text-align: center;">)
 
-[//]: # (  <img src="/images/natural-ensemble-11.jpg" alt="Featured image" style="width: 80%; height: auto;" />)
+[//]: # (  <img src="featured-natural-ensemble.jpg" alt="Featured image" style="width: 80%; height: auto;" />)
 
 [//]: # (</div>)
 
-{{< figure src="featured-natural-ensemble.jpg" alt="My caption" class="center w-80" >}}
-
+{{< figure src="/scrapbook/01-image-natural/featured-natural-ensemble.jpg" alt="My caption" class="center w-80" >}}
 
 Source: Public Domain. Original from the [Rijksmuseum](https://www.rijksmuseum.nl/en).

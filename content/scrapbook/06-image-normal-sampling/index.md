@@ -21,6 +21,6 @@ coverImage: "featured-normal-sampling.png"
 
 [//]: # (</div>)
 
-{{< figure src="featured-normal-sampling.png" alt="My caption" class="center w-80" >}}
+{{< figure src="/scrapbook/06-image-normal-sampling/featured-normal-sampling.png" alt="My caption" class="center w-80" >}}
 
 Made with 🩵 by Dialid Santiago.

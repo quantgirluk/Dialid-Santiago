@@ -1,6 +1,10 @@
 {{ $previous_label := "Newer" }}
 {{ $next_label := "Older" }}
-{{ $pag := $.Paginator }}
+{{ $ctxType := printf "%T" . }}
+{{ $pag := . }}
+{{ if not (in $ctxType "Pager") }}
+  {{ $pag = $.Paginator }}
+{{ end }}
 {{ if gt $pag.TotalPages 1 }}
 <div class="list-pagination w-100">
   <ul class="paginate list pl0 tc dt w-100 ma0">
