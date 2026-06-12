@@ -8,8 +8,6 @@ googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
-paginate = 7 # Hugo <=0.127 compatibility for list pagination size
-# set deliberately low for testing choose your preffered number based on the blog layout you've chosen
 [pagination]
   pagerSize = 7
 preserveTaxonomyNames = true
